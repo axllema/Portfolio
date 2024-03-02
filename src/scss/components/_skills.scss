@@ -16,6 +16,7 @@
 .skills-title-text {
     color: white;
     font-size: 35px;
+    margin-left: 20px;
     transition: all 0.3s ease;
 
     &:hover {
@@ -25,7 +26,30 @@
     }
 }
 
-.try{
+.skills-list {
+    margin: 20px 0 20px 0;
+}
+
+.skills-list-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 6em;
+    transition: all 0.3s ease;
+
+    &:hover {
+        transition: all 0.3s ease;
+        transform: scale(1.1);
+    }
+
+    &-name{
+        font-size: 20px;
+        text-align: center;
+    }
+}
+
+.skills-list-item-icon {
     width: 40px;
     filter: brightness(0) invert(1);
 }

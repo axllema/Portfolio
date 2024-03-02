@@ -25,41 +25,48 @@ function Skills() {
             <div className="skills-list-container">
                 <ul className="skills-list">
                     <li className="skills-list-item">
-                        <img src={profileIcon}  className="try" alt="icon user person" />
-                        <p className="skill-item-name">HTML 5</p>
+                        <img src={profileIcon}  className="skills-list-item-icon" alt="icon user person" />
+                        <p className="skills-list-item-name">HTML 5</p>
                     </li>
                     <li className="skills-list-item">
-                        <img src={profileIcon}  className="try" alt="icon user person" />
-                        <p className="skill-item-name">CSS 3</p>
+                        <img src={profileIcon}  className="skills-list-item-icon" alt="icon user person" />
+                        <p className="skills-list-item-name">CSS 3</p>
                     </li>
                     <li className="skills-list-item">
-                        <img src={profileIcon}  className="try" alt="icon user person" />
-                        <p className="skill-item-name">JavaScript</p>
+                        <img src={profileIcon}  className="skills-list-item-icon" alt="icon user person" />
+                        <p className="skills-list-item-name">JavaScript</p>
                     </li>
                     <li className="skills-list-item">
-                        <img src={profileIcon}  className="try" alt="icon user person" />
-                        <p className="skill-item-name">React</p>
+                        <img src={profileIcon}  className="skills-list-item-icon" alt="icon user person" />
+                        <p className="skills-list-item-name">React</p>
                     </li>
                     <li className="skills-list-item">
-                        <p className="skill-item-name">SASS</p>
+                        <img src={profileIcon}  className="skills-list-item-icon" alt="icon user person" />
+                        <p className="skills-list-item-name">SASS</p>
                     </li>
                     <li className="skills-list-item">
-                        <p className="skill-item-name">Redux</p>
+                        <img src={profileIcon}  className="skills-list-item-icon" alt="icon user person" />
+                        <p className="skills-list-item-name">Redux</p>
                     </li>
                     <li className="skills-list-item">
-                        <p className="skill-item-name">Github</p>
+                        <img src={profileIcon}  className="skills-list-item-icon" alt="icon user person" />
+                        <p className="skills-list-item-name">Github</p>
                     </li>
                     <li className="skills-list-item">
-                        <p className="skill-item-name">Adobe Photoshop</p>
+                        <img src={profileIcon}  className="skills-list-item-icon" alt="icon user person" />
+                        <p className="skills-list-item-name">Photoshop</p>
                     </li>
                     <li className="skills-list-item">
-                        <p className="skill-item-name">Adobe Illustrator</p>
+                        <img src={profileIcon}  className="skills-list-item-icon" alt="icon user person" />
+                        <p className="skills-list-item-name">Illustrator</p>
                     </li>
                     <li className="skills-list-item">
-                        <p className="skill-item-name">Adobe Indesign</p>
+                        <img src={profileIcon}  className="skills-list-item-icon" alt="icon user person" />
+                        <p className="skills-list-item-name">Indesign</p>
                     </li>
                     <li className="skills-list-item">
-                        <p className="skill-item-name">Adobe XD</p>
+                        <img src={profileIcon}  className="skills-list-item-icon" alt="icon user person" />
+                        <p className="skills-list-item-name">Adobe XD</p>
                     </li>
                 </ul>
             </div>

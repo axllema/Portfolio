@@ -1,15 +1,32 @@
 .footer {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     background-color: black;
-    justify-content: center;
     width: 100%;
-    
-    &-logo {
 
-        &-image{
-            width: 6em;
-            filter: brightness(0) invert(1);
+    &-items {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        &-logo {
+            margin: 0;
+
+            &-image {
+                margin: 0;
+                width: 6em;
+                filter: brightness(0) invert(1);
+            }
         }
+    }
+}
+
+.footer-icons {
+    margin-top: 0;
+    filter: brightness(0) invert(1);
+
+    &-logo {
+        width: 30px;
     }
 }
