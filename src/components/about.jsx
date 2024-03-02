@@ -3,10 +3,10 @@
 import photoDev from '../assets/photo_pro.png';
 import cvFile from '../assets/CV-Axelle_Maolé.pdf';
 import downloadIcon from '../assets/download_icon.png';
-import '../scss/components/_presentation.scss'
+import '../scss/components/_about.scss'
 import '../scss/style.scss'
 
-function Presentation() {
+function About() {
 
     const handleDownload = () => {
         const link = document.createElement('a');
@@ -43,4 +43,4 @@ function Presentation() {
         </section>
     );
 }
-export default Presentation;
+export default About;

@@ -1,0 +1,31 @@
+#skills {
+    background-color: black;
+    color: white;
+}
+
+.skills-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.skills-list {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+.skills-title-text {
+    color: white;
+    font-size: 35px;
+    transition: all 0.3s ease;
+
+    &:hover {
+        transition: all 0.3s ease;
+        font-size: 40px;
+        color: #460d8d;
+    }
+}
+
+.try{
+    width: 40px;
+    filter: brightness(0) invert(1);
+}

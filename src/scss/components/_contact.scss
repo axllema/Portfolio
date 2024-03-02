@@ -1,0 +1,15 @@
+.contact_form-title{
+    color: black;
+    font-size: 35px;
+    transition: all 0.3s ease;
+
+    &:hover {
+        transition: all 0.3s ease;
+        font-size: 40px;
+        color: #460d8d;
+    }
+}
+
+.contact_form-content-infos-icon {
+    width: 80px;
+}
