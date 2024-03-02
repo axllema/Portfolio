@@ -3,7 +3,7 @@
 import Logo from '../components/logo';
 import Menu from '../components/menu';
 import NavIcons from '../components/navIcons';
-import '../scss/components/_header.scss';
+import '../scss/layout/_header.scss';
 import '../scss/style.scss';
 
 function Header() {
