@@ -1,7 +1,7 @@
 // import React from 'react'; 
 // import { Link } from "react-router-dom"
 import Header from '../components/header';
-// import Footer from '../components/footer';
+import Footer from '../components/footer';
 // import '../scss/pages/_home.scss'
 // import '../scss/style.scss'
 
@@ -12,7 +12,7 @@ function Home() {
             <div>
 aha
             </div>
-          {/*  <Footer/> */} 
+            <Footer/>
         </div>
     );
 }

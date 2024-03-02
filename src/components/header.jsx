@@ -1,21 +1,21 @@
 // import * as React from 'react';
-import { Link } from "react-router-dom"
-import logo from '../assets/logo_provi.png';
+// import { Link } from "react-router-dom"
+import Logo from '../components/logo';
+import Menu from '../components/menu';
+import NavIcons from '../components/navIcons';
 import '../scss/components/_header.scss';
 import '../scss/style.scss';
 
 function Header() {
     return (
         <nav className="main-nav">
-            <Link to="/" className="main-nav-logo"> 
-                <img alt="logo provisoire" src={logo} className="main-nav-logo-image"/>
-                <h1 className="sr-only"> Axelle Maolé</h1>
-            </Link>
-
-            <section className="main-nav-item">
-            </section>
+        <Logo />
+        <Menu />
+        <NavIcons />
         </nav>
     );
 }
 
 export default Header;
+
+

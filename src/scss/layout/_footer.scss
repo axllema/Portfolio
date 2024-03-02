@@ -1,0 +1,15 @@
+.footer {
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    justify-content: center;
+    width: 100%;
+    
+    &-logo {
+
+        &-image{
+            width: 6em;
+            filter: brightness(0) invert(1);
+        }
+    }
+}
