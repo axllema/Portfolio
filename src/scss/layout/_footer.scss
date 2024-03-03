@@ -22,11 +22,21 @@
     }
 }
 
-.footer-icons {
-    margin-top: 0;
-    filter: brightness(0) invert(1);
+.footer-icons-container {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding-top: 20px;
+}
 
-    &-logo {
-        width: 30px;
+.footer-items-icon {
+    margin-top: 0;
+    width: 30px;
+    filter: brightness(0) invert(1);
+    transition: all 0.8s ease;
+
+    &:hover{
+        transition: all 0.8s ease;
+        transform: scale(1.1) rotate(360deg)
     }
 }
