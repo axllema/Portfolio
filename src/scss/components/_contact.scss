@@ -1,4 +1,7 @@
-.contact_form-title{
+#contact{
+    padding : 20px;
+}
+.contact_form-title {
     color: black;
     font-size: 35px;
     margin-left: 20px;
@@ -11,6 +14,10 @@
     }
 }
 
-.contact_form-content-infos-icon {
-    width: 80px;
+.contact-infos-icon {
+    width: 60px;
+}
+
+.contact-infos-text {
+    font-size : 18px;
 }
