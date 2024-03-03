@@ -1,6 +1,8 @@
-// import { Link } from 'react-router-dom';
-// import '../components/_projects.scss';
+import { useContext } from 'react';
+import { LanguageContext } from '../pages/Homepage';
+import SkillsTranslations from '../translation/SkillsTranslation';
 import profileIcon from '../assets/profile_icon.png';
+
 // import HTML from '../assets/skills/html.png';
 // import CSS from '../assets/skills/css.png';
 // import JS from '../assets/skills/javascript.png';
@@ -12,15 +14,18 @@ import profileIcon from '../assets/profile_icon.png';
 // import Illustrator from '../assets/skills/illustrator.png';
 // import Indesign from '../assets/skills/indesign.png';
 // import XD from '../assets/skills/adobe_xd.png';
+
 import '../scss/components/_skills.scss';
 import '../scss/style.scss';
 
 function Skills() {
+    const { language } = useContext(LanguageContext);
+
     return (
         <section className="skills" id="skills">
         <div className="skills-container">
             <div className="skills-title">
-                <h2 className="skills-title-text">Skills</h2>
+                <h2 className="skills-title-text">{SkillsTranslations[language].skills.title || "Compétences"}</h2>
             </div>
             <div className="skills-list-container">
                 <ul className="skills-list">

@@ -13,6 +13,7 @@ function Header() {
         <Menu />
         <NavIcons />
         </nav>
+
     );
 }
 

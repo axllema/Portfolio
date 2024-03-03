@@ -1,11 +1,12 @@
 import { useState } from 'react';
-// import { Link } from 'react-router-dom';
+// import MenuTranslations from '../translation/MenuTranslations';
+// import { LanguageContext } from '../pages/Homepage';
 import '../scss/style.scss';
 
 const setHash = (hash) => {
     // modifies the hash in the URL of the page
     window.document.location.hash = hash;
-};
+}
 
 const menuItems = [
     { label: 'À propos', hash: '#about' },
@@ -15,14 +16,13 @@ const menuItems = [
 ];
 
 function Menu() {
-        const [selectedItem, setSelectedItem] = useState(null);
+    const [selectedItem, setSelectedItem] = useState(null);
     
-        const handleClick = (hash) => {
-            setSelectedItem(hash);
-            setHash(hash);
-        };
+    const handleClick = (hash) => {
+        setSelectedItem(hash);
+        setHash(hash);
+    };
 
-    
     return (
         <ul className="main-nav-anchor">
             {menuItems.map(item => (
