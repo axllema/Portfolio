@@ -9,7 +9,7 @@ function Footer() {
     return (
         <nav className="footer">
             <div className="footer-items">
-                <NavIcons className="footer-icons" imageClassName="footer-icons-logo"/>
+                <NavIcons className="footer-icons" imageClassName="footer-icons-logo"  showLanguageButton={false} />
                 <Logo className="footer-items-logo" imageClassName="footer-items-logo-image" />
             </div>
         </nav>

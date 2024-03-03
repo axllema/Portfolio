@@ -7,7 +7,7 @@ import Skills from '../components/skills';
 import Projects from '../components/projects';
 import Contact from '../components/contact';
 import Footer from '../components/footer';
-// import '../scss/pages/_home.scss'
+import '../scss/pages/_homepage.scss'
 // import '../scss/style.scss'
 
 export const LanguageContext = createContext();
@@ -24,15 +24,10 @@ function Home() {
         <LanguageContext.Provider value={{ language, toggleLanguage }}>
         <div>
             <Header/>
-
-            <button onClick={toggleLanguage} className="language-button">
-                    {language === 'fr' ? 'Switch to English' : 'Passer en Français'}
-            </button>
-
             <div>
                 <Starter />
                 <About id="about" />
-                <Skills id="skills"/>
+                <Skills id="skills"/> 
                 <Projects id="projects"/>
                 <Contact id="contact"/>
 
