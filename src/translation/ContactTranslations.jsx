@@ -3,6 +3,7 @@
 const ContactTranslations = {
     fr: {
         title: "Contact",
+        contactTitle: "Contactez-moi",
         namePlaceholder: "Nom",
         emailPlaceholder: "Email",
         subjectPlaceholder: "Sujet",
@@ -17,6 +18,7 @@ const ContactTranslations = {
     },
     en: {
         title: "Contact",
+        contactTitle: "Contact me",
         namePlaceholder: "Name",
         emailPlaceholder: "Email",
         subjectPlaceholder: "Subject",
