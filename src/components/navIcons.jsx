@@ -9,20 +9,18 @@ import FrenchFlag from '../assets/french_flag.png';
 
 import '../scss/style.scss';
 
-function NavIcons({ className, imageClassName, showLanguageButton }) {
+function NavIcons({ className, imageClassName}) {
     const { language, toggleLanguage } = useContext(LanguageContext);
 
     return (
         <section className={`main-nav-item ${className}`}>
             
-            {showLanguageButton && (
                 <button onClick={toggleLanguage} className="language-button">
                     {language === 'fr' ? 
                         <img src={EnglishFlag} alt="drapeau anglais" className="language-button-flag" /> :
                         <img src={FrenchFlag} alt="drapeau français" className="language-button-flag" />
                     }
                 </button>
-            )}
 
             <a href="https://github.com/axllema/" aria-label="lien Github">
                 <img src={githubLogo} alt="logo de Github" className={`main-nav-item-logo ${imageClassName}`}/>
@@ -39,5 +37,5 @@ export default NavIcons;
 NavIcons.propTypes = {
     className: PropTypes.string,
     imageClassName: PropTypes.string,
-    showLanguageButton: PropTypes.bool.isRequired
+    showLanguageButton: PropTypes.bool
 };
