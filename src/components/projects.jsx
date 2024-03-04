@@ -1,4 +1,4 @@
-import { useState, useContext } from 'react';
+import { useContext } from 'react';
 // import { Link } from 'react-router-dom';
 import { LanguageContext } from '../pages/Homepage';
 import projectsData from '../data/projectsData';
@@ -9,35 +9,22 @@ function Projects() {
     const { language } = useContext(LanguageContext);
     const currentProjects = projectsData[language];
 
-    // State pour les overlays de chaque projet
-    const [overlayStates, setOverlayStates] = useState(currentProjects.map(() => false));
-
-    const handleProjectClick = (index) => {
-        // Inverser l'état de l'overlay pour le projet cliqué
-        setOverlayStates(prevStates => prevStates.map((state, i) => i === index ? !state : false));
-    };
-
     return (
         <section id="projects">
             <h2 className="projects-title"> Projets </h2>
             <div className="projects-container">
-                {currentProjects.map((project, index) => (
+                {currentProjects.map((project) => (
                     <div key={project.id} className="project-item">
-                        <h3 className="project-title">{project.title}</h3>
-                        <div className="image-container" onClick={() => handleProjectClick(index)}>
+                        <h3 className="project-item-title">{project.title}</h3>
+                        <div className="image-container">
                             <img src={project.image} alt={project.title} className="project-image" />
-                            {overlayStates[index] && (
-                                <div className="overlay">
-                                    <div className="overlay-content">
-                                        <p>{project.description}</p>
-                                        <div className="projects-links">
-                                            <a href={project.link}>Github</a>
-                                            <a href="" className="view-details-link">Voir +</a>
-                                            {/* <Link to={`/project/${project.id}`} className="view-details-link">Voir +</Link> */}
-                                        </div>
-                                    </div>
-                                </div>
-                            )}
+                        </div>
+                        <p className="project-description">{project.description}</p>
+                        <p className="project-skills">{project.skills}</p>
+                        <div className="projects-links">
+                            <a href={project.link} className="project-link-github">Github</a>
+                            <a href="" className="project-link-viewmore">Voir +</a>
+                            {/* <Link to={`/project/${project.id}`} className="view-details-link">Voir +</Link> */}
                         </div>
                     </div>
                 ))}
