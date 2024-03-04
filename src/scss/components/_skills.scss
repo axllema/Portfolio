@@ -1,7 +1,7 @@
 #skills {
     background-color: black;
     color: white;
-    padding : 20px;
+    padding: 40px 0 50px 0;
 }
 
 .skills-container {
@@ -29,6 +29,10 @@
 
 .skills-list {
     margin: 20px 0 20px 0;
+
+    &-container{
+        padding-top: 25px;
+    }
 }
 
 .skills-list-item {
@@ -47,10 +51,18 @@
     &-name{
         font-size: 20px;
         text-align: center;
+        padding-top: 10px;
     }
 }
 
 .skills-list-item-icon {
     width: 40px;
-    filter: brightness(0) invert(1);
+    border: solid  white 1px;
+    border-radius: 100%;
+    transition: all 0.8s ease;
+    
+    &:hover {
+        transition: all 0.8s ease;
+        transform: scale(1.1) rotate(360deg);
+    }
 }

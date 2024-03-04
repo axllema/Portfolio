@@ -12,6 +12,8 @@ function ProjectDetails() {
         return <div>Projet non trouvé</div>;
     }
 
+
+
     return (
         <div className="project">
             <h2>{project.title}</h2>

@@ -23,25 +23,26 @@ function Starter() {
 
     return (
         <section id="starter">
-
-            <div>
-                <img
-                    src={photoDev}
-                    alt={StarterTranslations[language].starter_portrait_alt}
-                    loading="eager"
-                    className='photo-dev'
-                />
-            </div>
-            
-            <div className="about-me">
-            <h2 className="about-me-title">{StarterTranslations[language].starter_hello || "Bonjour, je suis Axelle" }</h2>
-            <p className="about-me-content">{StarterTranslations[language].starter_role || "Développeuse Front-end / Intégratrice Web"}</p>
-
+            <div className="about-me-container">
+                <div>
+                    <img
+                        src={photoDev}
+                        alt={StarterTranslations[language].starter_portrait_alt}
+                        loading="eager"
+                        className='photo-dev'
+                    />
+                </div>
                 
-                <button className="about-me-button" onClick={handleDownload}>
-                    <img src={downloadIcon} alt={StarterTranslations[language].starter_download_alt || "Télécharger" } className="about-me-button-download_icon" />
-                    {StarterTranslations[language].starter_cv_button}
-                </button>
+                <div className="about-me">
+                <h2 className="about-me-title">{StarterTranslations[language].starter_hello || "Bonjour, je suis Axelle" }</h2>
+                <p className="about-me-content">{StarterTranslations[language].starter_role || "Développeuse Front-end / Intégratrice Web"}</p>
+
+                    
+                    <button className="about-me-button" onClick={handleDownload}>
+                        <img src={downloadIcon} alt={StarterTranslations[language].starter_download_alt || "Télécharger" } className="about-me-button-download_icon" />
+                        {StarterTranslations[language].starter_cv_button}
+                    </button>
+                </div>
             </div>
         </section>
     );
