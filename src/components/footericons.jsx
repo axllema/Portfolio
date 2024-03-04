@@ -1,7 +1,7 @@
 // import React from 'react';
 import PropTypes from 'prop-types';
-import githubLogo from '../assets/github_logo.png';
-import linkedinLogo from '../assets/linkedin_logo.png';
+import githubLogo from '../assets/github_logo.webp';
+import linkedinLogo from '../assets/linkedin_logo.webp';
 // import '../scss/layout/_footer.scss'
 import '../scss/style.scss';
 

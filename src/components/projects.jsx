@@ -17,7 +17,7 @@ function Projects() {
                     <div key={project.id} className="project-item">
                         <h3 className="project-item-title">{project.title}</h3>
                         <div className="image-container">
-                            <img src={project.image} alt={project.title} className="project-image" />
+                            <img src={project.image} alt={project.title} className="project-image" loading="lazy"/>
                         </div>
                         <p className="project-description">{project.description}</p>
                         <p className="project-skills">{project.skills}</p>

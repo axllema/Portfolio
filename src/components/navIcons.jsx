@@ -2,10 +2,10 @@
 import { useContext } from 'react';
 import { LanguageContext } from '../pages/Homepage';
 import PropTypes from 'prop-types';
-import githubLogo from '../assets/github_logo.png';
-import linkedinLogo from '../assets/linkedin_logo.png';
-import EnglishFlag from '../assets/english_flag.png';
-import FrenchFlag from '../assets/french_flag.png';
+import githubLogo from '../assets/github_logo.webp';
+import linkedinLogo from '../assets/linkedin_logo.webp';
+import EnglishFlag from '../assets/english_flag.webp';
+import FrenchFlag from '../assets/french_flag.webp';
 
 import '../scss/style.scss';
 

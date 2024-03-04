@@ -2,7 +2,7 @@ import ArgentBank from '../assets/mockups/argentbank.png';
 import Kasa from '../assets/mockups/kasa.png';
 import SophieBluel from '../assets/mockups/sophiebluel.png';
 import NinaCarducci from '../assets/mockups/ninacarducci.png';
-import OhMyFood from '../assets/mockups/ohmyfood.png';
+import OhMyFood from '../assets/mockups/ohmyfood.webp';
 
 const projectsData = {
     fr: [

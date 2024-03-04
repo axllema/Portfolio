@@ -1,7 +1,7 @@
 // import React from 'react';
 import PropTypes from 'prop-types';
 import { Link } from "react-router-dom"
-import logoProvi from '../assets/logo_provi.png';
+import logoProvi from '../assets/logo_provi.webp';
 import '../scss/style.scss';
 
 function Logo({ className, imageClassName }) {

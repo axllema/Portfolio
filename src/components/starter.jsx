@@ -3,7 +3,7 @@ import { useContext } from 'react';
 import PropTypes from 'prop-types';
 import photoDev from '../assets/photo_pro.png';
 import cvFile from '../assets/CV-Axelle_Maolé.pdf';
-import downloadIcon from '../assets/download_icon.png';
+import downloadIcon from '../assets/download_icon.webp';
 import { LanguageContext } from '../pages/Homepage';
 import StarterTranslations from '../translation/StarterTranslation';
 import '../scss/components/_starter.scss'

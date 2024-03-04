@@ -2,17 +2,17 @@ import { useContext } from 'react';
 import { LanguageContext } from '../pages/Homepage';
 import SkillsTranslations from '../translation/SkillsTranslation';
 
-import HTML from '../assets/skills/html-icon.png';
-import CSS from '../assets/skills/css-icon.png';
-import JAVASCRIPT from '../assets/skills/js-icon.png';
-import React from '../assets/skills/react-icon.png';
-import SASS from '../assets/skills/sass-icon.png';
-import Redux from '../assets/skills/redux-icon.png';
-import Github from '../assets/skills/github-icon.png';
-import Photoshop from '../assets/skills/photoshop-icon.png';
-import Illustrator from '../assets/skills/illustator-icon.png';
-import Indesign from '../assets/skills/indesign-icon.png';
-import XD from '../assets/skills/xd-icon.png';
+import HTML from '../assets/skills/html-icon.webp';
+import CSS from '../assets/skills/css-icon.webp';
+import JAVASCRIPT from '../assets/skills/js-icon.webp';
+import React from '../assets/skills/react-icon.webp';
+import SASS from '../assets/skills/sass-icon.webp';
+import Redux from '../assets/skills/redux-icon.webp';
+import Github from '../assets/skills/github-icon.webp';
+import Photoshop from '../assets/skills/photoshop-icon.webp';
+import Illustrator from '../assets/skills/illustator-icon.webp';
+import Indesign from '../assets/skills/indesign-icon.webp';
+import XD from '../assets/skills/xd-icon.webp';
 
 import '../scss/components/_skills.scss';
 import '../scss/style.scss';
