@@ -55,7 +55,7 @@ function Contact() {
             <section className="contact_form" >
                     <h2 className="contact_form-title">{translations.contactTitle || "Contactez-moi"}</h2>
                     <div className="contact_form-content">
-                    <form className="contact_form-content-container" name="contact" onSubmit={handleFormSubmit} data-netlify="">
+                    <form className="contact_form-content-container" name="contact" onSubmit={handleFormSubmit} data-netlify="true">
 
                             <div className="contact_form-content-container-input">
                                 <label htmlFor="name"></label>

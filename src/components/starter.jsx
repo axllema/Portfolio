@@ -1,7 +1,7 @@
 import { useContext } from 'react';
 // import { Link } from "react-router-dom"
 import PropTypes from 'prop-types';
-import photoDev from '../assets/photo_pro.png';
+import photoDev from '../assets/photo_pro.webp';
 import cvFile from '../assets/CV-Axelle_Maolé.pdf';
 import downloadIcon from '../assets/download_icon.webp';
 import { LanguageContext } from '../pages/Homepage';
