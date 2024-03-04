@@ -1,5 +1,5 @@
 import { useState, useContext } from 'react';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 import { LanguageContext } from '../pages/Homepage';
 import projectsData from '../data/projectsData';
 import '../scss/components/_projects.scss';
