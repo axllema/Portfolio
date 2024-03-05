@@ -32,7 +32,7 @@ const projectsData = {
             id: 4,
             title: "Sophie Bluel",
             description: "Contribué au développement du site portfolio d'une architecte d'intérieur en tant que développeur front-end. Tâches incluant la création de la page de présentation des travaux, de la page de connexion de l'administrateur et de la modale d'upload de médias.",
-            skills: ["Javascript", "React", "DOM", "Récupération de données de formulaire"],
+            skills: ["Javascript", "React", "DOM", "Récupération de données"],
             link: "https://github.com/axllema/ArchiWebos",
             image: SophieBluel
         },
@@ -40,7 +40,7 @@ const projectsData = {
             id: 5,
             title: "Nina Carducci",
             description: "Fourni des services d'optimisation SEO à un photographe confronté à des problèmes de performance et de classement sur son site web. Audit complet du site réalisé, avec des solutions proposées pour améliorer la vitesse de chargement, le classement dans les moteurs de recherche et l'accessibilité.",
-            skills: ["Optimisation de la performance du site web", "SEO", "Accessibilité"],
+            skills: ["Optimisation performances", "SEO", "Accessibilité"],
             link: "https://github.com/axllema/P9-Nina_Carducci",
             image: NinaCarducci
         },
@@ -63,7 +63,7 @@ const projectsData = {
             id: 8,
             title: "ArgentBank",
             description: "Responsable de la configuration du tableau de bord utilisateur pour notre nouvelle application web React chez ArgentBank. Collaboration avec Mila, la cheffe de projet, pour répondre aux exigences fixées par Avery et terminer les tâches dans les délais impartis.",
-            skills: ["React", "Redux", "Green Code", "Appels API", "MongoDB", "SASS", "Javascript"],
+            skills: ["React", "Redux", "Green Code", "MongoDB", "SASS", "Javascript"],
             link: "https://github.com/axllema/724events",
             image: ArgentBank
         }
@@ -103,7 +103,7 @@ const projectsData = {
             id: 5,
             title: "Nina Carducci",
             description: "Provided SEO optimization services to a photographer facing performance and ranking issues on their website. Conducted a comprehensive site audit, with proposed solutions to improve loading speed, search engine ranking, and accessibility.",
-            skills: ["Website performance optimization", "SEO", "Accessibility"],
+            skills: ["Performance optimization", "SEO", "Accessibility"],
             link: "https://github.com/axllema/P9-Nina_Carducci",
             image: NinaCarducci
         },
@@ -126,7 +126,7 @@ const projectsData = {
         id: 8,
         title: "ArgentBank",
         description: "Responsible for configuring the user dashboard for our new React web application at ArgentBank. Collaborated with Mila, the project manager, to meet requirements set by Avery and complete tasks within deadlines.",
-        skills: ["React", "Redux", "Green Code", "API calls", "MongoDB", "SASS", "Javascript"],
+        skills: ["React", "Redux", "Green Code", "MongoDB", "SASS", "Javascript"],
         link: "https://github.com/axllema/ArgentBank",
         image: ArgentBank
     }

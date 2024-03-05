@@ -62,11 +62,35 @@
 
 .project-skills {
     display: flex;
-    flex-direction: column;
-    color: red;
-    text-align: left;
-    font-size: 13px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
     padding: 15px;
+    font-size: 12px;
+
+    position: relative;
+}
+
+
+.project-skills::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom : 10px;
+    transform: translateX(-50%);
+    width: 175px;
+    height: 1px;
+    background-color: black;
+}
+
+.skill-button {
+    background-color: #460d8d;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    cursor: default;
 }
 
 .projects-links {
@@ -77,7 +101,7 @@
     color:black;
     font-size: 15px;
     padding: 10px 0 16px 0;
-    gap: 50px;
+    gap: 20px;
 
     a:visited {
         color: inherit;
@@ -93,14 +117,13 @@
     background-color: rgba(67, 13, 108, 0.0509803922);
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-
     width: calc(33.33% - 20px);
     margin-bottom: 10px;
 
     &:hover {
         transition: all 0.3s ease;
         transform: scale(1.05);
-}
+    }
 }
 
 .project-link-viewmore {

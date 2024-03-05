@@ -21,7 +21,11 @@ function Projects() {
                             <img src={project.image} alt={project.title} className="project-image" loading="lazy"/>
                         </div>
                         <p className="project-description">{project.description}</p>
-                        <p className="project-skills">{project.skills}</p>
+                        <div className="project-skills">
+                            {project.skills.map((skill, index) => (
+                                <span key={index} className="skill-button">{skill}</span>
+                            ))}
+                        </div>
                         <div className="projects-links">
                             <a href={project.link}>
                                 <img src={githubLogo} alt="GitHub" className="projects-link-github" />
