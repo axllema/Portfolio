@@ -23,7 +23,9 @@ function Projects() {
                         <p className="project-description">{project.description}</p>
                         <p className="project-skills">{project.skills}</p>
                         <div className="projects-links">
-                            <img src={githubLogo} alt="GitHub" className="projects-link-github" />
+                            <a href={project.link}>
+                                <img src={githubLogo} alt="GitHub" className="projects-link-github" />
+                            </a>
                             <a href="" className="project-link-viewmore">Voir +</a>
                             {/* <Link to={`/project/${project.id}`} className="view-details-link">Voir +</Link> */}
                         </div>
