@@ -19,6 +19,16 @@
                 filter: brightness(0) invert(1);
             }
         }
+
+        &-text {
+            color: rgb(123 115 126);
+            font-size: 15px;
+            padding-bottom: 10px;
+
+            &-span {
+                font-size: 15px;
+            }
+        }
     }
 }
 
@@ -39,4 +49,9 @@
         transition: all 0.8s ease;
         transform: scale(1.1) rotate(360deg)
     }
+}
+
+
+.footer-items-logo {
+    padding: 10px 20px 10px 20px;
 }
