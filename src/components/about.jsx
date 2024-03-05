@@ -31,23 +31,25 @@ function About() {
                             alt={translations.parisAlt || "Photo de Paris, la Tour Eiffel au loin."}
                             loading="eager"/>
                             <h3 className="hobbies-list-item-name">{translations.locationTitle || "Emplacement"}</h3>
-                            <p className="hobbies-list-item-content">{translations.locationContent || "Je viens et j’habite en banlieue parisienne, à Champigny-sur-Marne."}</p>
+                            <p className="hobbies-list-item-content">{translations.locationContent || "Je viens de Champigny-sur-Marne, en banlieue parisienne."}</p>
                         </li>
                         <li className="hobbies-list-item">
                             <img src={Coding} className="hobbies-list-item-picture"
                             alt={translations.codingAlt || "Photo d'un ordinateur avec du code sur l'écran, et un carnet ouvert."}
                             loading="eager"/>
                             <h3 className="hobbies-list-item-name">{translations.experienceTitle || "Expérience"}</h3>
-                            <p className="hobbies-list-item-content">{translations.experienceContent || "Un an d'expérience en tant que développeuse front-end / intégratrice autodidacte."}</p>
+                            <p className="hobbies-list-item-content">{translations.experienceContent || "Un an d'expérience en tant que Développeuse Front-end / Intégratrice autodidacte."}</p>
                         </li>
                         <li className="hobbies-list-item">
                             <img src={Diploma} className="hobbies-list-item-picture"
                             alt={translations.diplomaAlt || "Photo de chapeaux de diplômés lancés dans les airs."}
                             loading="eager"/>
                             <h3 className="hobbies-list-item-name">{translations.diplomaTitle || "Diplômes"}</h3>
-                            <p className="hobbies-list-item-content">
-                                {translations.diplomaContent || "Bachelor chef de projet digital (IIM)\nMastère Direction Artistique & Communication (Com'art)\nCertificat professionnelleDéveloppeur Informatique (OpenClassrooms)"}
-                            </p>
+                            <ul className="hobbies-list-item-content">
+                                {translations.diplomaContent.map((item, index) => (
+                                    <li key={index}>{item}</li>
+                                ))}
+                            </ul>
                         </li>
                         <li className="hobbies-list-item">
                             <img src={VideoGames} className="hobbies-list-item-picture"

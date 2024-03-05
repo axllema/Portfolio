@@ -3,14 +3,14 @@ const AboutTranslations = {
         title: "À propos",
         parisAlt: "Photo de Paris, la Tour Eiffel au loin.",
         locationTitle: "Emplacement",
-        locationContent: "Je viens et j’habite en banlieue parisienne, à Champigny-sur-Marne.",
+        locationContent: "Je viens de Champigny-sur-Marne, en banlieue parisienne.",
         experienceTitle: "Expérience",
-        experienceContent: "Un an d'expérience en tant que développeuse front-end / intégratrice autodidacte.",
+        experienceContent: "Un an d'expérience en tant que Développeuse Front-end / Intégratrice autodidacte.",
         diplomaTitle: "Diplômes",
         diplomaContent: [
             "Bachelor chef de projet digital (IIM)",
             "Mastère Direction Artistique & Communication (Com'art)",
-            "Certificat professionnelleDéveloppeur Informatique (OpenClassrooms)"
+            "Certificat professionnelle Développeur Informatique (OpenClassrooms)"
         ],
         passionsTitle: "Passions",
         passionsContent: "Intérêt particulier pour la pop culture, la musique (les concerts), la photographie, et les jeux vidéos."

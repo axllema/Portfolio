@@ -2,6 +2,7 @@ import { useContext } from 'react';
 // import { Link } from 'react-router-dom';
 import { LanguageContext } from '../pages/Homepage';
 import projectsData from '../data/projectsData';
+import githubLogo from '../assets/github_logo.webp';
 import '../scss/components/_projects.scss';
 import '../scss/style.scss';
 
@@ -22,7 +23,7 @@ function Projects() {
                         <p className="project-description">{project.description}</p>
                         <p className="project-skills">{project.skills}</p>
                         <div className="projects-links">
-                            <a href={project.link} className="project-link-github">Github</a>
+                            <img src={githubLogo} alt="GitHub" className="projects-link-github" />
                             <a href="" className="project-link-viewmore">Voir +</a>
                             {/* <Link to={`/project/${project.id}`} className="view-details-link">Voir +</Link> */}
                         </div>
