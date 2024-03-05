@@ -21,7 +21,7 @@ function Contact() {
                 <section className="contact_form" >
                     <h2 className="contact_form-title">{translations.contactTitle || "Contactez-moi"}</h2>
                     <div className="contact_form-content">
-                        <form className="contact_form-content-container" data-netlify="true">
+                        <form className="contact_form-content-container" data-netlify="true" method="POST">
 
                             <input type="hidden" name="form-name" value="contact" />
 
