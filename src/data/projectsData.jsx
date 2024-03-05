@@ -8,37 +8,6 @@ const projectsData = {
     fr: [
         {
             id: 1,
-            title: "Booki",
-            description: "Contribué au développement du site web Booki en tant que développeur front-end. Responsable de l'intégration de l'interface utilisateur en collaboration avec l'UI designer et la CTO. Tâches comprenant l'intégration des maquettes desktop, tablette et mobile, ainsi que la mise en place du code HTML et CSS conforme aux spécifications techniques.",
-            skills: ["HTML", "CSS"],
-            link: "https://github.com/axllema/Booki"
-        },
-        {
-            id: 2,
-            title: "Sophie Bluel",
-            description: "Contribué au développement du site portfolio d'une architecte d'intérieur en tant que développeur front-end. Tâches incluant la création de la page de présentation des travaux, de la page de connexion de l'administrateur et de la modale d'upload de médias.",
-            skills: ["Javascript", "React", "DOM", "Récupération de données de formulaire"],
-            link: "https://github.com/axllema/ArchiWebos",
-            image: SophieBluel
-        },
-        {
-            id: 3,
-            title: "Nina Carducci",
-            description: "Fourni des services d'optimisation SEO à un photographe confronté à des problèmes de performance et de classement sur son site web. Audit complet du site réalisé, avec des solutions proposées pour améliorer la vitesse de chargement, le classement dans les moteurs de recherche et l'accessibilité.",
-            skills: ["Optimisation de la performance du site web", "SEO", "Accessibilité"],
-            link: "https://github.com/axllema/P9-Nina_Carducci",
-            image: NinaCarducci
-        },
-        {
-            id: 4,
-            title: "Kasa",
-            description: "Refonte du site web de Kasa, une entreprise de location d'appartements entre particuliers. Responsable du développement de l'application en utilisant React pour le front-end et des données extraites des annonces de logements fournies.",
-            skills: ["React", "Vite", "Javascript", "SASS"],
-            link: "https://github.com/axllema/Kasa",
-            image: Kasa
-        },
-        {
-            id: 5,
             title: "Ohmyfood",
             description: "Contribué au développement du site Ohmyfood, une plateforme de réservation de menus gastronomiques à Paris. Création d'une expérience utilisateur fluide et réactive en utilisant des maquettes fournies et des animations CSS pour des interactions dynamiques.",
             skills: ["Intégration mobile-first", "SASS", "Animations", "Github"],
@@ -46,11 +15,42 @@ const projectsData = {
             image: OhMyFood
         },
         {
-            id: 6,
+            id: 2,
+            title: "Booki",
+            description: "Contribué au développement du site web Booki en tant que développeur front-end. Responsable de l'intégration de l'interface utilisateur en collaboration avec l'UI designer et la CTO. Tâches comprenant l'intégration des maquettes desktop, tablette et mobile, ainsi que la mise en place du code HTML et CSS conforme aux spécifications techniques.",
+            skills: ["HTML", "CSS"],
+            link: "https://github.com/axllema/Booki"
+        },
+        {
+            id: 3,
             title: "Print-it",
             description: "Travaillé sur le projet Print-it, une mission de développement JavaScript visant à améliorer le site Internet d'une imprimerie familiale. Implémentation d'un carrousel interactif en JavaScript, avec ajout progressif de fonctionnalités telles que la navigation, les points indicateurs et le défilement infini.",
             skills: ["JavaScript", "DOM"],
             link: "https://github.com/axllema/Print-it"
+        },
+        {
+            id: 4,
+            title: "Sophie Bluel",
+            description: "Contribué au développement du site portfolio d'une architecte d'intérieur en tant que développeur front-end. Tâches incluant la création de la page de présentation des travaux, de la page de connexion de l'administrateur et de la modale d'upload de médias.",
+            skills: ["Javascript", "React", "DOM", "Récupération de données de formulaire"],
+            link: "https://github.com/axllema/ArchiWebos",
+            image: SophieBluel
+        },
+        {
+            id: 5,
+            title: "Nina Carducci",
+            description: "Fourni des services d'optimisation SEO à un photographe confronté à des problèmes de performance et de classement sur son site web. Audit complet du site réalisé, avec des solutions proposées pour améliorer la vitesse de chargement, le classement dans les moteurs de recherche et l'accessibilité.",
+            skills: ["Optimisation de la performance du site web", "SEO", "Accessibilité"],
+            link: "https://github.com/axllema/P9-Nina_Carducci",
+            image: NinaCarducci
+        },
+        {
+            id: 6,
+            title: "Kasa",
+            description: "Refonte du site web de Kasa, une entreprise de location d'appartements entre particuliers. Responsable du développement de l'application en utilisant React pour le front-end et des données extraites des annonces de logements fournies.",
+            skills: ["React", "Vite", "Javascript", "SASS"],
+            link: "https://github.com/axllema/Kasa",
+            image: Kasa
         },
         {
             id: 7,
@@ -66,25 +66,33 @@ const projectsData = {
             skills: ["React", "Redux", "Green Code", "Appels API", "MongoDB", "SASS", "Javascript"],
             link: "https://github.com/axllema/724events",
             image: ArgentBank
-        },
-        {
-            id: 9,
-            title: "Menu Maker",
-            description: "Développement d'un outil en ligne, le Menu Maker, pour permettre aux restaurateurs de créer et de gérer facilement leurs menus. Utilisation de React.js pour concevoir une interface intuitive et réactive, visant à simplifier le processus de création de menus.",
-            skills: ["User Stories", "Veille technologique", "Gestion de projet"],
-            link: "https://github.com/axllema/724events"
         }
     ],
     en: [
         {
             id: 1,
+            title: "Ohmyfood",
+            description: "Contributed to the development of the Ohmyfood website, a platform for booking gourmet menus in Paris. Created a smooth and responsive user experience using provided mockups and CSS animations for dynamic interactions.",
+            skills: ["Mobile-first integration", "SASS", "Animations", "Github"],
+            link: "https://github.com/axllema/Ohmyfood",
+            image: OhMyFood
+        },
+        {
+            id: 2,
             title: "Booki",
             description: "Contributed to the development of the Booki website as a front-end developer. Responsible for integrating the user interface in collaboration with the UI designer and the CTO. Tasks included integrating desktop, tablet, and mobile mockups, as well as implementing HTML and CSS code according to technical specifications.",
             skills: ["HTML", "CSS"],
             link: "https://github.com/axllema/Booki"
         },
         {
-            id: 2,
+            id: 3,
+            title: "Print-it",
+            description: "Worked on the Print-it project, a JavaScript development mission to improve the website of a family printing company. Implemented an interactive carousel in JavaScript, with progressive addition of features such as navigation, indicator points, and infinite scrolling.",
+            skills: ["JavaScript", "DOM"],
+            link: "https://github.com/axllema/Print-it",
+        },
+        {
+            id: 4,
             title: "Sophie Bluel",
             description: "Contributed to the development of the interior designer's portfolio website as a front-end developer. Tasks included creating the work presentation page, the administrator login page, and the media upload modal.",
             skills: ["Javascript", "React", "DOM", "Form data retrieval"],
@@ -92,35 +100,20 @@ const projectsData = {
             image: SophieBluel
         },
         {
-            id: 3,
+            id: 5,
             title: "Nina Carducci",
             description: "Provided SEO optimization services to a photographer facing performance and ranking issues on their website. Conducted a comprehensive site audit, with proposed solutions to improve loading speed, search engine ranking, and accessibility.",
             skills: ["Website performance optimization", "SEO", "Accessibility"],
             link: "https://github.com/axllema/P9-Nina_Carducci",
             image: NinaCarducci
         },
-        {
-            id: 4,
-            title: "Kasa",
-            description: "Redesigned the Kasa website, a company specializing in peer-to-peer apartment rentals. Responsible for developing the application using React for the front-end and data extracted from the provided housing listings.",
-            skills: ["React", "Vite", "Javascript", "SASS"],
-            link: "https://github.com/axllema/Kasa",
-            image: Kasa
-        },
-        {
-            id: 5,
-            title: "Ohmyfood",
-            description: "Contributed to the development of the Ohmyfood website, a platform for booking gourmet menus in Paris. Created a smooth and responsive user experience using provided mockups and CSS animations for dynamic interactions.",
-            skills: ["Mobile-first integration", "SASS", "Animations", "Github"],
-            link: "https://github.com/axllema/Ohmyfood",
-            image: OhMyFood
-        },
     {
         id: 6,
-        title: "Print-it",
-        description: "Worked on the Print-it project, a JavaScript development mission to improve the website of a family printing company. Implemented an interactive carousel in JavaScript, with progressive addition of features such as navigation, indicator points, and infinite scrolling.",
-        skills: ["JavaScript", "DOM"],
-        link: "https://github.com/axllema/Print-it",
+        title: "Kasa",
+        description: "Redesigned the Kasa website, a company specializing in peer-to-peer apartment rentals. Responsible for developing the application using React for the front-end and data extracted from the provided housing listings.",
+        skills: ["React", "Vite", "Javascript", "SASS"],
+        link: "https://github.com/axllema/Kasa",
+        image: Kasa
     },
     {
         id: 7,
@@ -136,13 +129,6 @@ const projectsData = {
         skills: ["React", "Redux", "Green Code", "API calls", "MongoDB", "SASS", "Javascript"],
         link: "https://github.com/axllema/ArgentBank",
         image: ArgentBank
-    },
-    {
-        id: 9,
-        title: "Menu Maker",
-        description: "Developed an online tool, the Menu Maker, to allow restaurant owners to easily create and manage their menus. Used React.js to design an intuitive and responsive interface, aiming to simplify the menu creation process.",
-        skills: ["User Stories", "Technological watch", "Project management"],
-        link: "https://github.com/axllema/MenuMaker",
     }
     ]
 };
