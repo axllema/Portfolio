@@ -34,7 +34,8 @@ function Starter() {
                 </div>
                 
                 <div className="about-me">
-                <h2 className="about-me-title">{StarterTranslations[language].starter_hello || "Bonjour, je suis Axelle" }</h2>
+                <h2 className="about-me-title">{StarterTranslations[language].starter_hello || "Bonjour, je suis" }</h2>
+                <p className="about-me-name"> Axelle</p>
                 <p className="about-me-content">{StarterTranslations[language].starter_role || "Développeuse Front-end / Intégratrice Web"}</p>
 
                     
