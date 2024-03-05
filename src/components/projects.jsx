@@ -28,7 +28,7 @@ function Projects() {
                         </div>
                         <div className="projects-links">
                             <a href={project.link}>
-                                <img src={githubLogo} alt="GitHub" className="projects-link-github" />
+                                <img src={githubLogo} alt="GitHub" aria-label="Lien Github" className="projects-link-github" />
                             </a>
                             <a href="" className="project-link-viewmore">Voir +</a>
                             {/* <Link to={`/project/${project.id}`} className="view-details-link">Voir +</Link> */}
