@@ -1,41 +1,36 @@
-import { useState } from 'react';
-// import MenuTranslations from '../translation/MenuTranslations';
+import { useContext} from 'react';
+import { LanguageContext } from '../pages/Homepage';
+import MenuTranslations from '../translation/MenuTranslations';
 // import { LanguageContext } from '../pages/Homepage';
 import '../scss/style.scss';
 
 const setHash = (hash) => {
-    // modifies the hash in the URL of the page
     window.document.location.hash = hash;
 }
 
-const menuItems = [
-    { label: 'À propos', hash: '#about' },
-    { label: 'Compétences', hash: '#skills' },
-    { label: 'Projets', hash: '#projects' },
-    { label: 'Contact', hash: '#contact' }
-];
-
 function Menu() {
-    const [selectedItem, setSelectedItem] = useState(null);
+    const { language } = useContext(LanguageContext);
     
+    const translations = MenuTranslations[language];
+
     const handleClick = (hash) => {
-        setSelectedItem(hash);
         setHash(hash);
     };
 
     return (
         <ul className="main-nav-anchor">
-            {menuItems.map(item => (
-                <li key={item.hash}>
-                    <a
-                        href={item.hash}
-                        onClick={() => handleClick(item.hash)}
-                        style={{ textDecoration: selectedItem === item.hash ? 'underline' : 'none' }}
-                    >
-                        {item.label}
-                    </a>
-                </li>
-            ))}
+            <li>
+                <a href="#about" onClick={() => handleClick("#about")}>{translations.about || "À propos"}</a>
+            </li>
+            <li>
+                <a href="#skills" onClick={() => handleClick("#skills")}>{translations.skills || "Compétences"}</a>
+            </li>
+            <li>
+                <a href="#projects" onClick={() => handleClick("#projects")}>{translations.projects || "Projets"}</a>
+            </li>
+            <li>
+                <a href="#contact" onClick={() => handleClick("#contact")}>{translations.contact || "Contact"}</a>
+            </li>
         </ul>
     );
 }
