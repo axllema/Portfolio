@@ -35,7 +35,7 @@ function Contact() {
                             </div>
 
                             <div className="contact_form-content-container-input">
-                                <label htmlFor="subject">  {translations.labelsubject || "Sujet"}</label>
+                                <label htmlFor="subject">  {translations.labelsubject || "Sujet:"}</label>
                                 <input type="text" name="subject" id="subject" placeholder={translations.subjectPlaceholder || "Sujet"} required="" />
                             </div>
 

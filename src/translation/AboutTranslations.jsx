@@ -8,8 +8,8 @@ const AboutTranslations = {
         experienceContent: "Un an d'expérience en tant que Développeuse Front-end / Intégratrice autodidacte.",
         diplomaTitle: "Diplômes",
         diplomaContent: [
-            "Bachelor chef de projet digital (IIM)",
-            "Mastère Direction Artistique & Communication (Com'art)",
+            "Bachelor Chef de Projet Digital, Création & Design (IIM)",
+            "Mastère Communication & Direction Artistique (Com'art)",
             "Certificat professionnelle Développeur Informatique (OpenClassrooms)"
         ],
         passionsTitle: "Passions",
@@ -24,8 +24,8 @@ const AboutTranslations = {
         experienceContent: "One year experience as a self-taught Front-end Developer / Integrator.",
         diplomaTitle: "Diplomas",
         diplomaContent: [
-            "Bachelor Digital Project Manager (IIM)",
-            "Master Art Direction & Communication (Com'art)",
+            "Bachelor in Digital Project Management, Creation & Design (IIM)",
+            "Master's in Communication & Art Direction (Com'art)",
             "Professional Certificate in Computer Development (OpenClassrooms)"
         ],
         passionsTitle: "Hobbies",
