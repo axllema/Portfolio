@@ -53,7 +53,9 @@
 
                 &:hover{
                     transition: all 0.8s ease;
-                    transform: scale(1.1) rotate(360deg)
+                    transform: scale(1.1) rotate(360deg);
+                    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.5);
+                    border-radius: 100%;
                 }
             }
     
@@ -63,7 +65,7 @@
 .language-button {
     background: transparent;
     border: none;
-
+    cursor: pointer;
 
     &-flag {
         width: 35px;
@@ -73,6 +75,7 @@
         &:hover{
         transition: all 0.3s ease;
         transform: scale(1.1);
+        box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.5);
         }
     }
 }  

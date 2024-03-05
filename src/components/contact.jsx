@@ -18,8 +18,7 @@ function Contact() {
             <h2 className="contact-title">{translations.title || "Contact"}</h2>
             <div className="form_infos-container">
 
-                <section className="contact_form" >
-                    <h2 className="contact_form-title">{translations.contactTitle || "Contactez-moi"}</h2>
+                <section className="contact_form">
                     <div className="contact_form-content">
                         <form className="contact_form-content-container" data-netlify="true" method="POST">
 

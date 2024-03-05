@@ -7,6 +7,7 @@
 .skills-container {
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 .skills-title-text {
@@ -22,13 +23,13 @@
 }
 
 .skills-list {
-    margin: 20px 0;
-    padding: 35px 0;
     display: flex;
     flex-direction: column;
     list-style: none;
     justify-content: center;
     align-items: center;
+    margin: 30px 0;
+    padding-top: 20px;
 }
 
 .skills-list-container {
