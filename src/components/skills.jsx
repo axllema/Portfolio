@@ -21,20 +21,20 @@ function Skills() {
     const { language } = useContext(LanguageContext);
 
     const developerSkills = [
-        { icon: HTML, name: "HTML 5" },
-        { icon: CSS, name: "CSS 3" },
-        { icon: JAVASCRIPT, name: "JavaScript" },
-        { icon: React, name: "React" },
-        { icon: SASS, name: "SASS" },
-        { icon: Redux, name: "Redux" },
-        { icon: Github, name: "Github" }
+        { icon: HTML, name: "HTML 5", alt: "HTML icon" },
+        { icon: CSS, name: "CSS 3", alt: "CSS icon" },
+        { icon: JAVASCRIPT, name: "JavaScript", alt: "Javascript icon" },
+        { icon: React, name: "React", alt: "React icon" },
+        { icon: SASS, name: "SASS", alt: "SASS icon" },
+        { icon: Redux, name: "Redux", alt: "Redux icon" },
+        { icon: Github, name: "Github", alt: "Github icon" }
     ];
 
     const designerSkills = [
-        { icon: Photoshop, name: "Photoshop" },
-        { icon: Illustrator, name: "Illustrator" },
-        { icon: Indesign, name: "Indesign" },
-        { icon: XD, name: "Adobe XD" }
+        { icon: Photoshop, name: "Photoshop", alt: "Photoshop icon" },
+        { icon: Illustrator, name: "Illustrator", alt: "Illustrator icon" },
+        { icon: Indesign, name: "Indesign", alt: "Indesign icon" },
+        { icon: XD, name: "Adobe XD", alt: "Adobe XD icon" }
     ];
 
     return (
@@ -50,7 +50,7 @@ function Skills() {
                                 {developerSkills.map((skill, index) => (
                                     <li className="skills-list-item" key={index}>
                                         <img src={skill.icon} className="skills-list-item-icon"
-                                        alt={skill.name} loading="lazy"/>
+                                        alt={skill.alt} loading="lazy"/>
                                         <p className="skills-list-item-name">{skill.name}</p>
                                     </li>
                                 ))}
@@ -61,7 +61,7 @@ function Skills() {
                                 {designerSkills.map((skill, index) => (
                                     <li className="skills-list-item" key={index}>
                                         <img src={skill.icon} className="skills-list-item-icon"
-                                        alt={skill.name} loading="lazy" />
+                                        alt={skill.alt} loading="lazy" />
                                         <p className="skills-list-item-name">{skill.name}</p>
                                     </li>
                                 ))}

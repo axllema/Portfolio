@@ -25,22 +25,22 @@ function Contact() {
                             <input type="hidden" name="form-name" value="contact" />
 
                             <div className="contact_form-content-container-input">
-                                <label htmlFor="name"></label>
+                                <label htmlFor="name"> {translations.labelname || "Nom:"}</label>
                                 <input type="text" name="name" id="name" placeholder={translations.namePlaceholder || "Nom"} required=""  autoComplete="name"/>
                             </div>
 
                             <div className="contact_form-content-container-input">
-                                <label htmlFor="email"></label>
+                                <label htmlFor="email"> {translations.labelemail || "Email:"}</label>
                                 <input type="email" name="email" id="email" placeholder={translations.emailPlaceholder || "Email"} required="" autoComplete="email" />
                             </div>
 
                             <div className="contact_form-content-container-input">
-                                <label htmlFor="subject"></label>
+                                <label htmlFor="subject">  {translations.labelsubject || "Sujet"}</label>
                                 <input type="text" name="subject" id="subject" placeholder={translations.subjectPlaceholder || "Sujet"} required="" />
                             </div>
 
                             <div className="contact_form-content-container-input text">
-                                <label htmlFor="message"></label>
+                                <label htmlFor="message"> {translations.labelmessage || "Message:"}</label>
                                 <textarea name="message" id="message" cols="30" rows="10" placeholder={translations.messagePlaceholder || "Votre message ..."} required=""></textarea>
                             </div>
 
