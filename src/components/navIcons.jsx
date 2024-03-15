@@ -22,7 +22,7 @@ function NavIcons({ className, imageClassName}) {
                     }
                 </button>
 
-            <a href="https://github.com/axllema/" aria-label="lien Github">
+            <a href="https://github.com/axllema/" aria-label="Lien Github">
                 <img src={githubLogo} alt="logo de Github" className={`main-nav-item-logo ${imageClassName}`}/>
             </a>
             <a href="https://www.linkedin.com/in/axelle-maol%C3%A9-02173614a/" aria-label="lien Linkedin">

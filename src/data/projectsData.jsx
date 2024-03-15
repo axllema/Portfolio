@@ -1,8 +1,11 @@
-import ArgentBank from '../assets/mockups/argentbank.png';
-import Kasa from '../assets/mockups/kasa.png';
-import SophieBluel from '../assets/mockups/sophiebluel.png';
-import NinaCarducci from '../assets/mockups/ninacarducci.png';
-import OhMyFood from '../assets/mockups/ohmyfood.webp';
+import Events from '../assets/mockups/724events-min.webp';
+import ArgentBank from '../assets/mockups/argentbank-min.webp';
+import Booki from '../assets/mockups/booki-min.webp';
+import Kasa from '../assets/mockups/kasa-min.webp';
+import NinaCarducci from '../assets/mockups/ninacarducci-min.webp';
+import OhMyFood from '../assets/mockups/ohmyfood-min.webp';
+import PrintIt from '../assets/mockups/printit-min.webp';
+import SophieBluel from '../assets/mockups/sophiebluel-min.webp';
 
 const projectsData = {
     fr: [
@@ -19,14 +22,16 @@ const projectsData = {
             title: "Booki",
             description: "Contribué au développement du site web Booki en tant que développeur front-end. Responsable de l'intégration de l'interface utilisateur en collaboration avec l'UI designer et la CTO. Tâches comprenant l'intégration des maquettes desktop, tablette et mobile, ainsi que la mise en place du code HTML et CSS conforme aux spécifications techniques.",
             skills: ["HTML", "CSS"],
-            link: "https://github.com/axllema/Booki"
+            link: "https://github.com/axllema/Booki",
+            image: Booki
         },
         {
             id: 3,
             title: "Print-it",
             description: "Travaillé sur le projet Print-it, une mission de développement JavaScript visant à améliorer le site Internet d'une imprimerie familiale. Implémentation d'un carrousel interactif en JavaScript, avec ajout progressif de fonctionnalités telles que la navigation, les points indicateurs et le défilement infini.",
             skills: ["JavaScript", "DOM"],
-            link: "https://github.com/axllema/Print-it"
+            link: "https://github.com/axllema/Print-it",
+            image: PrintIt
         },
         {
             id: 4,
@@ -57,7 +62,8 @@ const projectsData = {
             title: "724events",
             description: "Finalisé l'intégration du nouveau site vitrine de l'agence événementielle 724events en tant que développeur front-end freelance. Analyse du code existant, correction des bugs identifiés et finalisation du cahier de recette pour garantir la qualité du site.",
             skills: ["Débogage", "Cahier de recettes"],
-            link: "https://github.com/axllema/724events"
+            link: "https://github.com/axllema/724events",
+            image: Events
         },
         {
             id: 8,
@@ -82,7 +88,8 @@ const projectsData = {
             title: "Booki",
             description: "Contributed to the development of the Booki website as a front-end developer. Responsible for integrating the user interface in collaboration with the UI designer and the CTO. Tasks included integrating desktop, tablet, and mobile mockups, as well as implementing HTML and CSS code according to technical specifications.",
             skills: ["HTML", "CSS"],
-            link: "https://github.com/axllema/Booki"
+            link: "https://github.com/axllema/Booki",
+            image: Booki
         },
         {
             id: 3,
@@ -90,6 +97,7 @@ const projectsData = {
             description: "Worked on the Print-it project, a JavaScript development mission to improve the website of a family printing company. Implemented an interactive carousel in JavaScript, with progressive addition of features such as navigation, indicator points, and infinite scrolling.",
             skills: ["JavaScript", "DOM"],
             link: "https://github.com/axllema/Print-it",
+            image: PrintIt
         },
         {
             id: 4,
@@ -121,6 +129,7 @@ const projectsData = {
         description: "Finalized the integration of the new showcase website for the freelance event agency 724events as a front-end developer. Analyzed existing code, fixed identified bugs, and finalized the recipe book to ensure site quality.",
         skills: ["Debugging", "Recipe book"],
         link: "https://github.com/axllema/724events",
+        image: Events
     },
     {
         id: 8,
