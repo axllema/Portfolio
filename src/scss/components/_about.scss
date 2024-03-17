@@ -1,3 +1,5 @@
+@import '../utils/mixins'; 
+
 .about {
     margin: 20px 0 60px 0;
     padding: 20px;
@@ -20,10 +22,16 @@
 
         .hobbies-list {
             display: flex;
-            flex-wrap: wrap;
+            flex-direction: column;
             gap: 20px;
             padding: 0 85px;
             justify-content: center;
+
+            @include desktop {
+                display: flex;
+                flex-wrap: wrap;
+                flex-direction: row;
+            }
             
             .hobbies-list-item {
                 display: flex;
@@ -48,13 +56,22 @@
 
 
                 h3 {
-                    font-size: 20px;
+                    font-size: 15px;
                     margin: 10px;
+
+                    @include desktop {
+                        font-size: 20px;
+                        margin: 10px;
+                    }
                 }
 
                 .hobbies-list-item-picture {
-                    width: 100px;
+                    width: 70px;
                     border-radius: 100%;
+
+                    @include desktop {
+                        width: 100px;
+                    }
                 }
 
                 .hobbies-list-item-content {
@@ -63,6 +80,10 @@
                     text-align: left;
                     margin : 0 15px 0 15px;
                     max-width: 305px;
+
+                    @include desktop {
+                        font-size: 15px;
+                    }
                 }
             }
         }

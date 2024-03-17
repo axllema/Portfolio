@@ -1,3 +1,5 @@
+@import '../utils/mixins'; 
+
 .main-nav { 
     display: flex;
     flex-direction: row;
@@ -5,17 +7,25 @@
     align-items: center;
     width: 100%;
     
-        &-logo {
-            padding: 20px;
-    
-            &-image {
-                width : 8em;
-                transition: all 0.3s ease;
+    &-logo {
+        padding: 20px;
 
-                &:hover{
-                    transition: all 0.3s ease;
-                    transform: scale(1.1);
-                }
+        &-image {
+            width: 4em;
+            transition: all 0.3s ease;
+        
+            @include tablet {
+                width: 6em;
+            }
+
+            @include desktop {
+                width : 8em;
+            }
+        } 
+            
+            &:hover{
+                transition: all 0.3s ease;
+                transform: scale(1.1);
             }
         }
     

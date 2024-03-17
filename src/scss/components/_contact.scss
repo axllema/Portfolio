@@ -1,15 +1,24 @@
+@import '../utils/mixins'; 
+
 #contact {
     background-color: #430d6c0d;
     padding: 20px 20px 50px 20px
 }
 
-.form_infos-container{
+.form_infos-container {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 180px;
-    padding: 20px;
+    gap: 50px;
+    padding: 45px 20px 20px 20px;
+
+    @include desktop {
+        display: flex;
+        flex-direction: row;
+        padding: 20px;
+        gap: 180px;
+    }
 }
 
 .contact-title {
@@ -23,6 +32,10 @@
         font-size: 40px;
         color: #460d8d;
     }
+}
+
+section.contact_form {
+    width: 470px;
 }
 
 .contact_form-content-container {
@@ -70,8 +83,12 @@
 }
 
 .contact-infos-icon {
-    width: 60px;
+    width: 45px;
     transition: all 0.8s ease;
+
+    @include desktop {
+        width: 60px;
+    }
 
     &:hover{
         transition: all 0.8s ease;
@@ -80,9 +97,13 @@
 }
 
 .contact-infos-text {
-    font-size : 20px;
+    font-size: 15px;
     text-decoration: none;
     color: black;
+
+    @include desktop {
+        font-size : 20px;
+    }
 
     &:hover{
         transition: all 0.3s ease;
