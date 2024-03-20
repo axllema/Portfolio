@@ -1,9 +1,17 @@
 @import '../utils/mixins'; 
 
 #skills {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background-color: black;
     color: white;
-    padding: 40px 0 50px 0;
+    padding: 25px 0 5px 0;
+
+    @include desktop {
+        padding: 40px 0 50px 0;
+    }
 }
 
 .skills-container {
@@ -14,13 +22,18 @@
 
 .skills-title-text {
     color: white;
-    font-size: 35px;
+    font-size: 25px;
     margin-left: 20px;
     transition: all 0.3s ease;
 
-    &:hover {
-        transition: all 0.3s ease;
-        font-size: 40px;
+    @include desktop {
+        font-size: 35px;
+        margin: 10px;
+
+        &:hover {
+            transition: all 0.3s ease;
+            font-size: 40px;
+        }
     }
 }
 
@@ -42,10 +55,15 @@
 
 .skills-list-dev,
 .skills-list-design {
-    display: flex;
+    gap: 25px;
     flex-direction: row;
+    display: flex;
     justify-content: center;
-    gap: 15px;
+    flex-wrap: wrap;
+
+    @include desktop {
+        gap: 15px;
+    }
 }
 
 .skills-list-item {
@@ -53,8 +71,17 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 6em;
+    width: 5em;
     transition: all 0.3s ease;
+
+    @include tablet {
+        width: 4em;
+    }
+
+    @include desktop {
+        width: 6em;
+    }
+
 
     &:hover {
         transition: all 0.3s ease;
@@ -69,10 +96,14 @@
 }
 
 .skills-list-item-icon {
-    width: 25px;
+    width: 20px;
     border: solid white 1px;
     border-radius: 50%;
     transition: all 0.8s ease;
+
+    @include tablet {
+        width: 30px;
+    }
 
     @include desktop {
         width: 40px;

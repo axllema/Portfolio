@@ -9,16 +9,19 @@
 
 .projects-title {
     color: black;
-    font-size: 40px;
+    font-size: 25px;
     margin-left: 20px;
     transition: all 0.3s ease;
     padding: 15px 0 10px 0;
     
+    @include desktop {
+        font-size: 35px;
 
-    &:hover {
-        transition: all 0.3s ease;
-        font-size: 40px;
-        color: #460d8d;
+        &:hover {
+            transition: all 0.3s ease;
+            font-size: 40px;
+            color: #460d8d;
+        }
     }
 }
 
@@ -35,13 +38,14 @@
     display: flex;
     flex-direction: column;
     justify-content: left;
-    padding: 50px 0 50px 0;
+    padding: 40px 0 10px 0;
     gap: 28px;
     margin: 0 45px 0 45px;
 
     @include desktop {
         flex-wrap: wrap;
         flex-direction: row;
+        padding: 50px 0 50px 0;
     }
 }
 

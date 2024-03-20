@@ -13,6 +13,10 @@
     gap: 50px;
     padding: 45px 20px 20px 20px;
 
+    @include tablet {
+    padding: 20px 20px 5px 20px
+}
+
     @include desktop {
         display: flex;
         flex-direction: row;
@@ -23,19 +27,29 @@
 
 .contact-title {
     color: black;
-    font-size: 35px;
+    font-size: 25px;
     margin-left: 20px;
     transition: all 0.3s ease;
 
-    &:hover {
-        transition: all 0.3s ease;
-        font-size: 40px;
-        color: #460d8d;
+    @include desktop {
+        font-size: 35px;
+        margin: 10px;
+
+        &:hover {
+            transition: all 0.3s ease;
+            font-size: 40px;
+            color: #460d8d;
+        }
     }
 }
 
 section.contact_form {
+    display: none;
     width: 470px;
+
+    @include desktop {
+        display: flex;
+    }
 }
 
 .contact_form-content-container {
