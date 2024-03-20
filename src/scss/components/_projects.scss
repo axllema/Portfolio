@@ -29,6 +29,10 @@
     width: 250px;
     height: auto;
 
+    @include tablet {
+        width: 380px;
+    }
+
     @include desktop {
         width: 400px;
     }

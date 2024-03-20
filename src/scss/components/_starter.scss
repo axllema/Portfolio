@@ -41,8 +41,8 @@
     background-color: rgba(67, 13, 108, 0.0509803922);
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    width: 605px;
-
+    width: 255px;
+    
     @include tablet {
         width: 380px;
         margin: 0px;
@@ -50,6 +50,7 @@
 
     @include desktop {
         margin: 0px;
+        width: 605px;
     }
 }
 

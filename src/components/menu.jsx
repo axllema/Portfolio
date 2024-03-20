@@ -19,7 +19,7 @@ function Menu() {
 
     return (
         <ul className="main-nav-anchor">
-            <li>
+            <li className="about-item">
                 <a href="#about" onClick={() => handleClick("#about")}>{translations.about || "À propos"}</a>
             </li>
             <li>

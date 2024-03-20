@@ -23,12 +23,13 @@
 .skills-title-text {
     color: white;
     font-size: 25px;
-    margin-left: 20px;
+    margin-left: 0px;
     transition: all 0.3s ease;
 
     @include desktop {
         font-size: 35px;
         margin: 10px;
+        margin-left: 20px;
 
         &:hover {
             transition: all 0.3s ease;
@@ -60,6 +61,7 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    padding: 0;
 
     @include desktop {
         gap: 15px;
