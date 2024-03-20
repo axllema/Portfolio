@@ -43,7 +43,7 @@ function Contact() {
                                 <label htmlFor="message"> {translations.labelmessage || "Message:"}</label>
                                 <textarea name="message" id="message" cols="30" rows="10" placeholder={translations.messagePlaceholder || "Votre message ..."} required=""></textarea>
                             </div>
-
+                            
                             <input className="contact_form-content-container-button" type="submit" value={translations.sendButton || "Envoyer"} />
                         </form>
                     </div>

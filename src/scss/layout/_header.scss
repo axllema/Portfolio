@@ -62,11 +62,13 @@
                 text-decoration: none;
                 color: inherit;
 
-                &:hover{
-                    transition: all 0.3s ease;
-                    font-size: 22px;
-                    color: #460d8d;
-                }
+                @include desktop {
+                    &:hover{
+                        transition: all 0.3s ease;
+                        font-size: 22px;
+                        color: #460d8d;
+                    }
+            }
             }
         }
     

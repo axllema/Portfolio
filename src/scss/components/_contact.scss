@@ -78,26 +78,18 @@ section.contact_form {
     align-items: start;
     gap: 30px;
 
-    &-name {
-        display: flex;
-        align-items : center;
-        cursor: pointer;
-    }
-
-    &-number {
-        display: flex;
-        align-items : center;
-
-    }
-
+    &-name,
+    &-number,
     &-mail {
         display: flex;
         align-items : center;
+        cursor: pointer;
     }
 }
 
 .contact-infos-icon {
     width: 45px;
+    height: auto;
     transition: all 0.8s ease;
 
     @include desktop {
