@@ -2,6 +2,8 @@ import { useContext } from 'react';
 // import { Link } from "react-router-dom"
 import PropTypes from 'prop-types';
 import photoDev from '../assets/photo_pro.webp';
+import photoDevTab from '../assets/photo_pro-tablette.webp';
+import photoDevPhone from '../assets/photo_pro-phone.webp';
 import cvFile from '../assets/CV-Axelle_Maolé.pdf';
 import downloadIcon from '../assets/download_icon.webp';
 import { LanguageContext } from '../pages/Homepage';
@@ -27,11 +29,15 @@ function Starter() {
                 <div>
                     <img
                         src={photoDev}
+                        srcSet={`${photoDevPhone} 375w, ${photoDevTab} 768w`}
                         alt={StarterTranslations[language].starter_portrait_alt}
                         loading="eager"
                         className='photo-dev'
+                        width="215px" height="auto"
                     />
                 </div>
+
+
                 
                 <div className="about-me">
                 <h2 className="about-me-title">{StarterTranslations[language].starter_hello || "Bonjour, je suis"} <span className="about-me-name"> Axelle</span></h2>

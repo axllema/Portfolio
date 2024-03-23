@@ -11,10 +11,10 @@ function FooterIcons() {
 
             <div className="footer-icons-container">
                 <a href="https://github.com/axllema/" aria-label="Lien Github">
-                    <img src={githubLogo} alt="logo de Github" className="footer-items-icon"/>
+                    <img src={githubLogo} alt="logo de Github" className="footer-items-icon" loading="lazy"/>
                 </a>
                 <a href="https://www.linkedin.com/in/axelle-maol%C3%A9-02173614a/" aria-label="Lien Linkedin">
-                    <img src={linkedinLogo} alt="logo de Linkedin" className="footer-items-icon"/>
+                    <img src={linkedinLogo} alt="logo de Linkedin" className="footer-items-icon" loading="lazy"/>
                 </a> 
             </div>
         </section>
