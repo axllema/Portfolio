@@ -3,6 +3,7 @@ import { useContext } from 'react';
 import { LanguageContext } from '../pages/Homepage';
 import projectsData from '../data/projectsData';
 import githubLogo from '../assets/github_logo.webp';
+import websiteLogo from '../assets/website_icon.webp';
 import '../scss/components/_projects.scss';
 import '../scss/style.scss';
 
@@ -27,9 +28,14 @@ function Projects() {
                             ))}
                         </div>
                         <div className="projects-links">
-                            <a href={project.link}>
+                            <a href={project.githublink}>
                                 <img src={githubLogo} alt="GitHub" aria-label="Lien Github" className="projects-link-github" />
                             </a>
+
+                            <a href={project.link}>
+                                <img src={websiteLogo} alt="Website" aria-label="Lien vers le site" className="projects-link-github" />
+                            </a> 
+
                             <a href="" className="project-link-viewmore">Voir +</a>
                             {/* <Link to={`/project/${project.id}`} className="view-details-link">Voir +</Link> */}
                         </div>

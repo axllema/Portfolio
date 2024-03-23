@@ -13,6 +13,7 @@ import Photoshop from '../assets/skills/photoshop-icon.webp';
 import Illustrator from '../assets/skills/illustator-icon.webp';
 import Indesign from '../assets/skills/indesign-icon.webp';
 import XD from '../assets/skills/xd-icon.webp';
+import Swagger from '../assets/skills/swagger-icon.webp';
 
 import '../scss/components/_skills.scss';
 import '../scss/style.scss';
@@ -27,7 +28,8 @@ function Skills() {
         { icon: React, name: "React", alt: "React icon" },
         { icon: SASS, name: "SASS", alt: "SASS icon" },
         { icon: Redux, name: "Redux", alt: "Redux icon" },
-        { icon: Github, name: "Github", alt: "Github icon" }
+        { icon: Github, name: "Github", alt: "Github icon" },
+        { icon: Swagger, name: "Swagger", alt: "Swagger icon" }
     ];
 
     const designerSkills = [
