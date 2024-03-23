@@ -10,7 +10,7 @@ const AboutTranslations = {
         diplomaContent: [
             "Bachelor Chef de Projet Digital, Création & Design (IIM)",
             "Mastère Communication & Direction Artistique (Com'art)",
-            "Certificat professionnelle Développeur Informatique (OpenClassrooms)"
+            "Certificat professionnel Développeur Informatique (OpenClassrooms)"
         ],
         passionsTitle: "Passions",
         passionsContent: "Intérêt particulier pour la pop culture, la musique (les concerts), la photographie, et les jeux vidéos."
@@ -19,7 +19,7 @@ const AboutTranslations = {
         title: "About",
         parisAlt: "Photo of Paris, the Eiffel Tower in the distance.",
         locationTitle: "Location",
-        locationContent: "I come, and live, in the Parisian suburbs, in Champigny-sur-Marne.",
+        locationContent: "Born and raised in the Parisian suburbs, in Champigny-sur-Marne.",
         experienceTitle: "Experience",
         experienceContent: "One year experience as a self-taught Front-end Developer / Integrator.",
         diplomaTitle: "Diplomas",

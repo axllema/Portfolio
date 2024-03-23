@@ -7,6 +7,7 @@ import Skills from '../components/skills';
 import Projects from '../components/projects';
 import Contact from '../components/contact';
 import Footer from '../components/footer';
+import arrowUp from '../assets/arrow_up.webp';
 import '../scss/pages/_homepage.scss'
 // import '../scss/style.scss'
 
@@ -25,6 +26,9 @@ function Home() {
         <div>
             <Header/>
             <div>
+                <a className="arrow_up" href="#top">
+                    <img src={arrowUp} alt="arrow up" className="arrow_up" />
+                </a>
                 <Starter />
                 <About id="about" />
                 <Skills id="skills"/> 
