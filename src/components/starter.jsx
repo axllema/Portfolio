@@ -1,5 +1,4 @@
 import { useContext } from 'react';
-// import { Link } from "react-router-dom"
 import PropTypes from 'prop-types';
 import photoDev from '../assets/photo_pro.webp';
 import photoDevTab from '../assets/photo_pro-tablette.webp';

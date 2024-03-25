@@ -1,4 +1,4 @@
-const HomepageTranslations = {
+const StarterTranslations = {
     fr: {
         starter_hello: "Bonjour, je suis",
         starter_role: "Développeuse Front-end / Intégratrice Web",
@@ -15,4 +15,4 @@ const HomepageTranslations = {
     }
 };
 
-export default HomepageTranslations;
+export default StarterTranslations;

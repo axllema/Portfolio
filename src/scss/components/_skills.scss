@@ -1,12 +1,13 @@
 @import '../utils/mixins'; 
+@import '../utils/variables'; 
 
 #skills {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: black;
-    color: white;
+    background-color: $primary-color;
+    color: $secondary-color;
     padding: 25px 0 5px 0;
 
     @include desktop {
@@ -21,13 +22,13 @@
 }
 
 .skills-title-text {
-    color: white;
+    color: $secondary-color;
     font-size: 25px;
     margin-left: 0px;
     transition: all 0.3s ease;
 
     @include desktop {
-        font-size: 35px;
+        font-size: $font-size-large;
         margin: 10px;
         margin-left: 20px;
 
@@ -99,7 +100,7 @@
 
 .skills-list-item-icon {
     width: 20px;
-    border: solid white 1px;
+    border: solid $secondary-color 1px;
     border-radius: 50%;
     transition: all 0.8s ease;
 
