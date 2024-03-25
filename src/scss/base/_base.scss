@@ -1,12 +1,15 @@
+@import '../utils/mixins'; 
+@import '../utils/variables'; 
+
 * {
     margin: 0;
 }
 
 body {
     font-family: 'Poppins', sans-serif;
-    --sb-track-color: #232E33;
-    --sb-thumb-color: #52386d;
-    --sb-size: 14px;
+    --sb-track-color: $third-color;
+    --sb-thumb-color: $primary-color;
+    --sb-size: $font-size-small;
 }
 
 body::-webkit-scrollbar {
