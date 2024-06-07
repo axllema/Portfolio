@@ -12,8 +12,8 @@ const projectsData = {
         {
             id: 9,
             title: "Knowledge",
-            description: "à voir",
-            skills: ["SASS", "à voir"],
+            description: "work in progess...",
+            skills: ["SASS", ""],
             githublink: "https://github.com/axllema/Knowledge",
             link: "https://knowledge-streaming.netlify.app/",
         },
@@ -94,8 +94,8 @@ const projectsData = {
         {
             id: 9,
             title: "Knowledge",
-            description: "to write",
-            skills: ["SASS", "to write"],
+            description: "work in progess...",
+            skills: ["SASS", ""],
             githublink: "https://github.com/axllema/Knowledge",
             link: "https://knowledge-streaming.netlify.app/",
         },
