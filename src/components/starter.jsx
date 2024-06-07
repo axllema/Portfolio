@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import photoDev from '../assets/photo_pro.webp';
 import photoDevTab from '../assets/photo_pro-tablette.webp';
 import photoDevPhone from '../assets/photo_pro-phone.webp';
-import cvFile from '../assets/CV-Axelle_Maolé.pdf';
+import cvFile from '../assets/maole_axelle-cv_2024.pdf';
 import downloadIcon from '../assets/download_icon.webp';
 import { LanguageContext } from '../pages/Homepage';
 import StarterTranslations from '../translation/StarterTranslation';
@@ -16,7 +16,7 @@ function Starter() {
     const handleDownload = () => {
         const link = document.createElement('a');
         link.href = cvFile;
-        link.download = 'CV-Axelle_Maolé.pdf'; // nom du fichier à télécharger
+        link.download = 'maolé_axelle-cv.pdf'; // nom du fichier à télécharger
         document.body.appendChild(link);
         link.click();
         document.body.removeChild(link);

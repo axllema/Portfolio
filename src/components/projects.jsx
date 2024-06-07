@@ -36,7 +36,9 @@ function Projects() {
                                 <img src={websiteLogo} alt="Website" aria-label="Lien vers le site" className="projects-link-github" />
                             </a> 
 
-                            <a href="" className="project-link-viewmore">Voir +</a>
+                            <a href="" className="project-link-viewmore">
+                                {language === 'fr' ? 'Voir +' : 'See +'}
+                            </a>
                             {/* <Link to={`/project/${project.id}`} className="view-details-link">Voir +</Link> */}
                         </div>
                     </div>

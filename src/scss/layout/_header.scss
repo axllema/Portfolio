@@ -35,43 +35,59 @@
         }
     
         &-anchor {
-            padding-left: 15px;
+            padding-top: 10px;
+            padding-left: 0px;
             display: flex;
-            flex-direction: row;
+            flex-direction: column;
             list-style-type: none;
             gap: 5px;
             color: $primary-color;
             font-family: 'Poppins', sans-serif;
-            font-size: $font-size-small;
+            font-size: 16px;
             font-weight: $semi-bold;
             transition: all 0.3s ease;
             justify-content: center;
             margin-right: 50px;
+            padding: 10px;
 
             @include tablet {
+                flex-direction: column;
                 gap: 10px;
                 font-size: 15px;
                 margin-right: 25px;
+                padding: 10px;
             }
     
             @include desktop {
+                padding-left: 15px;
                 font-size: 20px;
+                flex-direction: row;
                 gap: 80px;
                 justify-content: flex-start;
                 margin-right: 0px;
+                padding: 0px;
             }
 
-            li a {
-                text-decoration: none;
-                color: inherit;
+
+            &-opened {
+                padding-top: 10px;
+                padding-left: 0px;
+                display: flex;
+                flex-direction: column;
+                list-style-type: none;
+                gap: 5px;
+                color: $primary-color;
+                font-family: 'Poppins', sans-serif;
+                font-size: 16px;
+                font-weight: $semi-bold;
+                transition: all 0.3s ease;
+                justify-content: center;
+                margin-right: 50px;
+                padding: 10px;
 
                 @include desktop {
-                    &:hover{
-                        transition: all 0.3s ease;
-                        font-size: 22px;
-                        color: $third-color;
-                    }
-            }
+                    display: none;
+                }
             }
         }
     
@@ -122,14 +138,61 @@
     }
 }  
 
-.about-item {
-    width: 55px;
+.menu-button {
+    margin-right: 0px;
 
     @include tablet {
-        width: 91px;
+        margin-right: 10px;
+    }
+}
+
+.modal {
+    z-index: 5;
+    position: fixed;
+    top: 17px;
+    right: 0;
+    width: 40%;
+    height: 20%;
+    background-color: rgba(0, 0, 0, 0.9);
+    display: flex;
+    justify-content: left;
+    align-items: center;
+
+    @include tablet {
+        width: 20%;
+        height: 30%;
     }
 
     @include desktop {
-        width: 91px;
+        display: none;
+    }
+}
+
+.close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    font-size: 1em;
+    color: white;
+    cursor: pointer;
+
+    @include desktop {
+        display: none;
+    }
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+
+    @include desktop {
+        color: black;
+        &:hover{
+            transition: all 0.3s ease;
+            font-size: 22px;
+            color: $third-color;
+        }
     }
 }

@@ -10,6 +10,14 @@ import SophieBluel from '../assets/mockups/sophiebluel-min.webp';
 const projectsData = {
     fr: [
         {
+            id: 9,
+            title: "Knowledge",
+            description: "à voir",
+            skills: ["SASS", "à voir"],
+            githublink: "https://github.com/axllema/Knowledge",
+            link: "https://knowledge-streaming.netlify.app/",
+        },
+        {
             id: 1,
             title: "Ohmyfood",
             description: "Contribué au développement du site Ohmyfood, une plateforme de réservation de menus gastronomiques à Paris. Création d'une expérience utilisateur fluide et réactive en utilisant des maquettes fournies et des animations CSS pour des interactions dynamiques.",
@@ -83,6 +91,14 @@ const projectsData = {
         }
     ],
     en: [
+        {
+            id: 9,
+            title: "Knowledge",
+            description: "to write",
+            skills: ["SASS", "to write"],
+            githublink: "https://github.com/axllema/Knowledge",
+            link: "https://knowledge-streaming.netlify.app/",
+        },
         {
             id: 1,
             title: "Ohmyfood",
