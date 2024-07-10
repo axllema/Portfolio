@@ -12,8 +12,8 @@ const projectsData = {
         {
             id: 9,
             title: "Knowledge",
-            description: "work in progess...",
-            skills: ["SASS", ""],
+            description: "WORK IN PROGRESS - Contribué au développement du site Knowledge, une plateforme de streaming pour une jeune start-up française spécialisée dans les films documentaires. En tant que développeur front-end, j'étais responsable de l'intégration complète de l'interface utilisateur en utilisant React et CSS. J'ai également réalisé l'ensemble de la direction artistique et de la communication du projet, y compris la création du logo et des visuels.",
+            skills: ["React", "SASS", "Animations"],
             githublink: "https://github.com/axllema/Knowledge",
             link: "https://knowledge-streaming.netlify.app/",
         },
@@ -94,8 +94,8 @@ const projectsData = {
         {
             id: 9,
             title: "Knowledge",
-            description: "work in progess...",
-            skills: ["SASS", ""],
+            description: "WORK IN PROGRESS - Contributed to the development of the Knowledge website, a streaming platform for a young French start-up specialized in documentary films. As a front-end developer, I was responsible for the complete integration of the user interface using React and CSS. I also executed the entire artistic direction and communication of the project, including the creation of the logo and visuals.",
+            skills: ["React", "SASS", "Animations"],
             githublink: "https://github.com/axllema/Knowledge",
             link: "https://knowledge-streaming.netlify.app/",
         },
