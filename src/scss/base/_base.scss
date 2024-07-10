@@ -7,29 +7,30 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-    --sb-track-color: $third-color;
-    --sb-thumb-color: $primary-color;
-    --sb-size: $font-size-small;
+    --sb-track-color: rgba(67, 13, 108, 0.302);
+    --sb-thumb-color: #460d8d;
+    --sb-size: 10px;
 }
 
 body::-webkit-scrollbar {
-    width: var(--sb-size);
+    width: var(--sb-size)
 }
 
 body::-webkit-scrollbar-track {
     background: var(--sb-track-color);
-    border-radius: 3px;
+    border-radius: 4px;
 }
 
 body::-webkit-scrollbar-thumb {
     background: var(--sb-thumb-color);
-    border-radius: 3px;
+    border-radius: 4px;
 }
 
 @supports not selector(::-webkit-scrollbar) {
-    body {
-        scrollbar-color: var(--sb-thumb-color) var(--sb-track-color);
-    }
+body {
+    scrollbar-color: var(--sb-thumb-color)
+                    var(--sb-track-color);
+}
 }
 
 .sr-only {
