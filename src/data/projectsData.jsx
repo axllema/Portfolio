@@ -10,6 +10,14 @@ import SophieBluel from '../assets/mockups/sophiebluel-min.webp';
 const projectsData = {
     fr: [
         {
+            id: 10,
+            title: "Madeline Smith",
+            description: "WORK IN PROGRESS - Création d'un site autobiographique/blog pour un personnage fictif, Madeline Smith, coiffeuse californienne de l'univers GTA RP.",
+            skills: ["React", "SASS", "Animations"],
+            githublink: "https://github.com/axllema/MadelineSmith",
+            link: "https://madelinesmith.netlify.app/",
+        },
+        {
             id: 9,
             title: "Knowledge",
             description: "WORK IN PROGRESS - Contribué au développement du site Knowledge, une plateforme de streaming pour une jeune start-up française spécialisée dans les films documentaires. En tant que développeur front-end, j'étais responsable de l'intégration complète de l'interface utilisateur en utilisant React et CSS. J'ai également réalisé l'ensemble de la direction artistique et de la communication du projet, y compris la création du logo et des visuels.",
@@ -91,6 +99,14 @@ const projectsData = {
         }
     ],
     en: [
+        {
+            id: 10,
+            title: "Madeline Smith",
+            description: "WORK IN PROGRESS - Creation of an autobiographical/blog website for a fictional character, Madeline Smith, a Californian hairstylist from the GTA RP universe.",
+            skills: ["React", "SASS", "Animations"],
+            githublink: "https://github.com/axllema/MadelineSmith",
+            link: "https://madelinesmith.netlify.app/",
+        },
         {
             id: 9,
             title: "Knowledge",
