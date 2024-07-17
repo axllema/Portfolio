@@ -1,4 +1,4 @@
-import { useContext } from 'react';
+import { useState, useContext } from 'react';
 // import { Link } from 'react-router-dom';
 import { LanguageContext } from '../pages/Homepage';
 import projectsData from '../data/projectsData';
@@ -9,11 +9,29 @@ import '../scss/style.scss';
 
 function Projects() {
     const { language } = useContext(LanguageContext);
-    const currentProjects = projectsData[language];
+    const [filter, setFilter] = useState('tous');
+
+    const currentProjects = projectsData[language].filter(project => {
+        if (filter === 'tous') return true;
+        if (Array.isArray(project.type)) {
+            return project.type.includes(filter);
+        }
+        return project.type === filter;
+    });
 
     return (
         <section id="projects">
             <h2 className="projects-title"> Projets </h2>
+
+            <div className="filter">
+                <div className="filter-container">
+                    <button className={`filter-container-button ${filter === 'tous' ? 'active' : ''}`} onClick={() => setFilter('tous')}> {language === 'fr' ? 'Tous' : 'All'}</button>
+                    <button className={`filter-container-button ${filter === 'perso' ? 'active' : ''}`} onClick={() => setFilter('perso')}> {language === 'fr' ? 'Perso' : 'Personal'} </button>
+                    <button className={`filter-container-button ${filter === 'scolaire' ? 'active' : ''}`} onClick={() => setFilter('scolaire')}>{language === 'fr' ? 'Scolaire' : 'School'} </button>
+                    <button className={`filter-container-button ${filter === 'wip' ? 'active' : ''}`} onClick={() => setFilter('wip')}>{language === 'fr' ? 'En cours' : 'WIP'} </button>
+                </div>
+            </div>
+
             <div className="projects-container">
                 {currentProjects.map((project) => (
                     <div key={project.id} className="project-item">
@@ -31,14 +49,13 @@ function Projects() {
                             <a href={project.githublink}>
                                 <img src={githubLogo} alt="GitHub" aria-label="Lien Github" className="projects-link-github" />
                             </a>
-
                             <a href={project.link}>
                                 <img src={websiteLogo} alt="Website" aria-label="Lien vers le site" className="projects-link-github" />
                             </a> 
 
-                            <a href="" className="project-link-viewmore">
+                            {/* <a href="" className="project-link-viewmore">
                                 {language === 'fr' ? 'Voir +' : 'See +'}
-                            </a>
+                            </a> */}
                             {/* <Link to={`/project/${project.id}`} className="view-details-link">Voir +</Link> */}
                         </div>
                     </div>

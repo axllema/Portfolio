@@ -13,9 +13,10 @@ const projectsData = {
             id: 10,
             title: "Madeline Smith",
             description: "WORK IN PROGRESS - Création d'un site autobiographique/blog pour un personnage fictif, Madeline Smith, coiffeuse californienne de l'univers GTA RP.",
-            skills: ["React", "SASS", "Animations"],
+            skills: ["React", "SASS", "Animations", "Lecteur musique"],
             githublink: "https://github.com/axllema/MadelineSmith",
             link: "https://madelinesmith.netlify.app/",
+            type : ["perso", "wip"]
         },
         {
             id: 9,
@@ -24,6 +25,7 @@ const projectsData = {
             skills: ["React", "SASS", "Animations"],
             githublink: "https://github.com/axllema/Knowledge",
             link: "https://knowledge-streaming.netlify.app/",
+            type : ["perso", "wip"]
         },
         {
             id: 1,
@@ -32,7 +34,8 @@ const projectsData = {
             skills: ["Intégration mobile-first", "SASS", "Animations", "Github"],
             githublink: "https://github.com/axllema/Ohmyfood",
             link: "https://oc-ohmyfood-web.netlify.app/",
-            image: OhMyFood
+            image: OhMyFood,
+            type : "scolaire"
         },
         {
             id: 2,
@@ -41,7 +44,8 @@ const projectsData = {
             skills: ["HTML", "CSS"],
             githublink: "https://github.com/axllema/Booki",
             link: "https://oc-booki.netlify.app",
-            image: Booki
+            image: Booki,
+            type : "scolaire"
         },
         {
             id: 3,
@@ -50,7 +54,8 @@ const projectsData = {
             skills: ["JavaScript", "DOM"],
             githublink: "https://github.com/axllema/Print-it",
             link: "https://oc-printit.netlify.app",
-            image: PrintIt
+            image: PrintIt,
+            type : "scolaire"
         },
         {
             id: 4,
@@ -59,7 +64,8 @@ const projectsData = {
             skills: ["Javascript", "React", "DOM", "Récupération de données"],
             githublink: "https://github.com/axllema/ArchiWebos",
             link: "",
-            image: SophieBluel
+            image: SophieBluel,
+            type : "scolaire"
         },
         {
             id: 5,
@@ -68,7 +74,8 @@ const projectsData = {
             skills: ["Optimisation performances", "SEO", "Accessibilité"],
             githublink: "https://github.com/axllema/P9-Nina_Carducci",
             link: "https://oc-ninacarducci.netlify.app",
-            image: NinaCarducci
+            image: NinaCarducci,
+            type : "scolaire"
         },
         {
             id: 6,
@@ -77,7 +84,8 @@ const projectsData = {
             skills: ["React", "Vite", "Javascript", "SASS"],
             githublink: "https://github.com/axllema/Kasa",
             link: "",
-            image: Kasa
+            image: Kasa,
+            type : "scolaire"
         },
         {
             id: 7,
@@ -86,7 +94,8 @@ const projectsData = {
             skills: ["Débogage", "Cahier de recettes"],
             githublink: "https://github.com/axllema/724events",
             link: "https://oc-724-events.netlify.app",
-            image: Events
+            image: Events,
+            type : "scolaire"
         },
         {
             id: 8,
@@ -95,7 +104,8 @@ const projectsData = {
             skills: ["React", "Redux", "Green Code", "MongoDB", "SASS", "Javascript"],
             githublink: "https://github.com/axllema/724events",
             link: "",
-            image: ArgentBank
+            image: ArgentBank,
+            type : "scolaire"
         }
     ],
     en: [
@@ -103,9 +113,10 @@ const projectsData = {
             id: 10,
             title: "Madeline Smith",
             description: "WORK IN PROGRESS - Creation of an autobiographical/blog website for a fictional character, Madeline Smith, a Californian hairstylist from the GTA RP universe.",
-            skills: ["React", "SASS", "Animations"],
+            skills: ["React", "SASS", "Animations", "Musique Player"],
             githublink: "https://github.com/axllema/MadelineSmith",
             link: "https://madelinesmith.netlify.app/",
+            type : ["perso", "wip"]
         },
         {
             id: 9,
@@ -114,6 +125,7 @@ const projectsData = {
             skills: ["React", "SASS", "Animations"],
             githublink: "https://github.com/axllema/Knowledge",
             link: "https://knowledge-streaming.netlify.app/",
+            type : ["perso", "wip"]
         },
         {
             id: 1,
@@ -122,7 +134,8 @@ const projectsData = {
             skills: ["Mobile-first integration", "SASS", "Animations", "Github"],
             githublink: "https://github.com/axllema/Ohmyfood",
             link: "https://oc-ohmyfood-web.netlify.app/",
-            image: OhMyFood
+            image: OhMyFood,
+            type : "scolaire"
         },
         {
             id: 2,
@@ -131,7 +144,8 @@ const projectsData = {
             skills: ["HTML", "CSS"],
             githublink: "https://github.com/axllema/Booki",
             link: "https://oc-booki.netlify.app",
-            image: Booki
+            image: Booki,
+            type : "scolaire"
         },
         {
             id: 3,
@@ -140,7 +154,8 @@ const projectsData = {
             skills: ["JavaScript", "DOM"],
             githublink: "https://github.com/axllema/Print-it",
             link: "https://oc-printit.netlify.app",
-            image: PrintIt
+            image: PrintIt,
+            type : "scolaire"
         },
         {
             id: 4,
@@ -149,7 +164,8 @@ const projectsData = {
             skills: ["Javascript", "React", "DOM", "Form data retrieval"],
             githublink: "https://github.com/axllema/ArchiWebos",
             link: "",
-            image: SophieBluel
+            image: SophieBluel,
+            type : "scolaire"
         },
         {
             id: 5,
@@ -158,7 +174,8 @@ const projectsData = {
             skills: ["Performance optimization", "SEO", "Accessibility"],
             githublink: "https://github.com/axllema/P9-Nina_Carducci",
             link: "https://oc-ninacarducci.netlify.app",
-            image: NinaCarducci
+            image: NinaCarducci,
+            type : "scolaire"
         },
     {
         id: 6,
@@ -167,7 +184,8 @@ const projectsData = {
         skills: ["React", "Vite", "Javascript", "SASS"],
         githublink: "https://github.com/axllema/Kasa",
         link: "",
-        image: Kasa
+        image: Kasa,
+        type : "scolaire"
     },
     {
         id: 7,
@@ -176,7 +194,8 @@ const projectsData = {
         skills: ["Debugging", "Recipe book"],
         githublink: "https://github.com/axllema/724events",
         link: "https://oc-724-events.netlify.app",
-        image: Events
+        image: Events,
+        type : "scolaire"
     },
     {
         id: 8,
@@ -185,7 +204,8 @@ const projectsData = {
         skills: ["React", "Redux", "Green Code", "MongoDB", "SASS", "Javascript"],
         githublink: "https://github.com/axllema/ArgentBank",
         link: "",
-        image: ArgentBank
+        image: ArgentBank,
+        type : "scolaire"
     }
     ]
 };
