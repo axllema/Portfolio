@@ -12,8 +12,6 @@ function ProjectDetails() {
         return <div>Projet non trouvé</div>;
     }
 
-
-
     return (
         <div className="project">
             <h2>{project.title}</h2>
@@ -26,9 +24,3 @@ function ProjectDetails() {
 }
 
 export default ProjectDetails;
-
-/** Composant pour afficher les détails d'un projet spécifique.
-     * Ce composant sera utilisé lorsque "Voir +" sera mis en place pour permettre 
-     * l'affichage des caractéristiques du projet sélectionné.
-        * Pour l'instant, il n'est pas utilisé.
- */
