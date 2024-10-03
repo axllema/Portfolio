@@ -11,11 +11,11 @@ const projectsData = {
     fr: [
         {
             id: 10,
-            title: "Madeline Smith",
-            description: "WORK IN PROGRESS - Création d'un site autobiographique/blog pour un personnage fictif, Madeline Smith, coiffeuse californienne de l'univers GTA RP.",
+            title: "Madeline Summers",
+            description: "Création d'un site autobiographique/blog pour un personnage fictif, Madeline Smith, serveuse californienne de l'univers GTA RP.",
             skills: ["React", "SASS", "Animations", "Lecteur musique"],
             githublink: "https://github.com/axllema/MadelineSmith",
-            link: "https://madelinesmith.netlify.app/",
+            link: "https://madelinesummers.netlify.app/",
             type : ["perso", "wip"]
         },
         {
