@@ -6,6 +6,8 @@ import NinaCarducci from '../assets/mockups/ninacarducci-min.webp';
 import OhMyFood from '../assets/mockups/ohmyfood-min.webp';
 import PrintIt from '../assets/mockups/printit-min.webp';
 import SophieBluel from '../assets/mockups/sophiebluel-min.webp';
+import MadelineSummers from '../assets/mockups/madelinesummers.png';
+import Knowledge from '../assets/mockups/knowledge.png';
 
 const projectsData = {
     fr: [
@@ -16,6 +18,7 @@ const projectsData = {
             skills: ["React", "SASS", "Animations", "Lecteur musique"],
             githublink: "https://github.com/axllema/MadelineSmith",
             link: "https://madelinesummers.netlify.app/",
+            image: MadelineSummers,
             type : ["perso", "wip"]
         },
         {
@@ -25,6 +28,7 @@ const projectsData = {
             skills: ["React", "SASS", "Animations"],
             githublink: "https://github.com/axllema/Knowledge",
             link: "https://knowledge-streaming.netlify.app/",
+            image: Knowledge,
             type : ["perso", "wip"]
         },
         {
@@ -116,6 +120,7 @@ const projectsData = {
             skills: ["React", "SASS", "Animations", "Musique Player"],
             githublink: "https://github.com/axllema/MadelineSmith",
             link: "https://madelinesmith.netlify.app/",
+            image: MadelineSummers,
             type : ["perso", "wip"]
         },
         {
@@ -125,6 +130,7 @@ const projectsData = {
             skills: ["React", "SASS", "Animations"],
             githublink: "https://github.com/axllema/Knowledge",
             link: "https://knowledge-streaming.netlify.app/",
+            image: Knowledge,
             type : ["perso", "wip"]
         },
         {
