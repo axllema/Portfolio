@@ -4,6 +4,7 @@ import photoDev from '../assets/photo_pro.webp';
 import photoDevTab from '../assets/photo_pro-tablette.webp';
 import photoDevPhone from '../assets/photo_pro-phone.webp';
 import cvFile from '../assets/maole_axelle-cv_2024.pdf';
+import bookFile from '../assets/maole_axelle-book-compressed.pdf';
 import downloadIcon from '../assets/download_icon.webp';
 import { LanguageContext } from '../pages/Homepage';
 import StarterTranslations from '../translation/StarterTranslation';
@@ -17,6 +18,15 @@ function Starter() {
         const link = document.createElement('a');
         link.href = cvFile;
         link.download = 'maolé_axelle-cv.pdf'; // nom du fichier à télécharger
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+    };
+
+    const handleDownloadBook = () => {
+        const link = document.createElement('a');
+        link.href = bookFile;
+        link.download = 'maolé_axelle-book.pdf';
         document.body.appendChild(link);
         link.click();
         document.body.removeChild(link);
@@ -36,17 +46,21 @@ function Starter() {
                     />
                 </div>
 
-
-                
                 <div className="about-me">
-                <h2 className="about-me-title">{StarterTranslations[language].starter_hello || "Bonjour, je suis"} <span className="about-me-name"> Axelle</span></h2>
-                <p className="about-me-content">{StarterTranslations[language].starter_role || "Développeuse Front-end / Intégratrice Web"}</p>
+                    <h2 className="about-me-title">{StarterTranslations[language].starter_hello || "Bonjour, je suis"} <span className="about-me-name"> Axelle</span></h2>
+                    <p className="about-me-content">{StarterTranslations[language].starter_role || "Développeuse Front-end / Intégratrice Web"}</p>
 
-                    
-                    <button className="about-me-button" onClick={handleDownload}>
-                        <img src={downloadIcon} alt={StarterTranslations[language].starter_download_alt || "Télécharger" } className="about-me-button-download_icon" />
-                        {StarterTranslations[language].starter_cv_button}
-                    </button>
+                    <div className="about-me-buttons">
+                        <button className="about-me-button" onClick={handleDownload}>
+                            <img src={downloadIcon} alt={StarterTranslations[language].starter_download_alt || "Télécharger" } className="about-me-button-download_icon" />
+                            {StarterTranslations[language].starter_cv_button}
+                        </button>
+
+                        <button className="about-me-button" onClick={handleDownloadBook}>
+                            <img src={downloadIcon} alt={StarterTranslations[language].starter_download_alt || "Télécharger"} className="about-me-button-download_icon" />
+                            {StarterTranslations[language].starter_book_button || "BOOK"}
+                        </button>
+                    </div>
                 </div>
             </div>
         </section>

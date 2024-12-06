@@ -122,6 +122,22 @@
         }
     }
 
+    &-buttons {
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+
+        @include tablet {
+            flex-direction: row;
+            gap: 20px;
+        }
+
+        @include desktop {
+            flex-direction: row;
+            gap: 20px;
+        }
+    }
+
     &-button {
         display: flex;
         flex-direction: row;
@@ -132,7 +148,7 @@
         font-weight: $semi-bold;
         font-size: 18px;
         color : $primary-color;
-        font-size: 14px;
+        font-size: 12px;
         gap: 7px;
         border: 1px solid $primary-color;
         border-radius: 25px;
@@ -143,14 +159,15 @@
         transition: all 0.3s ease;
     
         @include tablet {
-            font-size: 16px;
+            font-size: 13px;
             gap: 9px;
-            width: 68px;
+            width: 75px;
+            padding: 8px 10px;
         }
 
         @include desktop {
             gap: 20px;
-            font-size: 18px;
+            font-size: 15px;
             width: 100px;
         }
 
