@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import photoDev from '../assets/photo_pro.webp';
 import photoDevTab from '../assets/photo_pro-tablette.webp';
 import photoDevPhone from '../assets/photo_pro-phone.webp';
-import cvFile from '../assets/maole_axelle-cv_2024.pdf';
+import cvFile from '../assets/maole_axelle-cv.pdf';
 import bookFile from '../assets/maole_axelle-book-compressed.pdf';
 import downloadIcon from '../assets/download_icon.webp';
 import { LanguageContext } from '../pages/Homepage';
