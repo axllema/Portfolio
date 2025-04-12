@@ -1,7 +1,7 @@
 const StarterTranslations = {
     fr: {
         starter_hello: "Bonjour, je suis",
-        starter_role: "Développeuse Front-end / Intégratrice Web",
+        starter_role: "Développeuse Front-end - Intégratrice Web - Graphiste",
         starter_cv_button: "CV",
         starter_book_button : "BOOK",
         starter_portrait_alt: "Portrait d'Axelle Maolé, la développeuse",
@@ -9,7 +9,7 @@ const StarterTranslations = {
     },
     en: {
         starter_hello: "Hello, I'm",
-        starter_role: "Front-end Developer / Web Integrator",
+        starter_role: "Front-end Developer - Web Integrator - Graphic Designer",
         starter_cv_button: "CV",
         starter_book_button : "BOOK",
         starter_portrait_alt: "Portrait of Axelle Maolé, the developer",
