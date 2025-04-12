@@ -31,7 +31,7 @@ function About() {
                             alt={translations.parisAlt || "Photo de Paris, la Tour Eiffel au loin."}
                             loading="eager"/>
                             <h3 className="hobbies-list-item-name">{translations.locationTitle || "Emplacement"}</h3>
-                            <p className="hobbies-list-item-content">{translations.locationContent || "Je viens de Champigny-sur-Marne, en banlieue parisienne."}</p>
+                            <p className="hobbies-list-item-content">{translations.locationContent || "Je suis située en banlieue parisienne."}</p>
                         </li>
                         <li className="hobbies-list-item">
                             <img src={Coding} className="hobbies-list-item-picture"
